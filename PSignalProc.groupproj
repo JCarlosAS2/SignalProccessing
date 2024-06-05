@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A2F124B6-9F40-4E06-8B6D-EBC187574F08}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="LazFiltersIIR\lazfilter.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="lazfilter">
+        <MSBuild Projects="LazFiltersIIR\lazfilter.dproj"/>
+    </Target>
+    <Target Name="lazfilter:Clean">
+        <MSBuild Projects="LazFiltersIIR\lazfilter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="lazfilter:Make">
+        <MSBuild Projects="LazFiltersIIR\lazfilter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="lazfilter"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="lazfilter:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="lazfilter:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
