@@ -1,0 +1,411 @@
+object Form1: TForm1
+  Left = 243
+  Height = 479
+  Top = 127
+  Width = 804
+  Caption = 'Form1'
+  ClientHeight = 479
+  ClientWidth = 804
+  LCLVersion = '1.1'
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 48
+    Top = 431
+    Width = 804
+    Align = alBottom
+    ClientHeight = 30
+    ClientWidth = 800
+    TabOrder = 0
+    object lbOrden: TLabel
+      Left = 214
+      Height = 13
+      Top = 1
+      Width = 30
+      Caption = 'Orden'
+      ParentColor = False
+    end
+    object ComboBox1: TComboBox
+      Left = 78
+      Height = 21
+      Top = -2
+      Width = 112
+      ItemHeight = 13
+      ItemIndex = 0
+      Items.Strings = (
+        'Rectangular'
+        'Triangle'
+        'Gauss'
+        'BlackMan'
+        'Cos^2'
+        'Hamming'
+        'Hanning'
+        'Kaisser'
+        'Lanczos'
+        'Tukey'
+        'BlackmanHarris'
+        'FlatTop'
+        'Bohman'
+        'Nuttall'
+        'BlackmanNuttall'
+        'Parzen'
+      )
+      OnChange = ComboBox1Change
+      Style = csDropDownList
+      TabOrder = 0
+      Text = 'Rectangular'
+    end
+    object btClear: TButton
+      Left = 646
+      Height = 25
+      Top = 1
+      Width = 75
+      Caption = 'Clear'
+      OnClick = btClearClick
+      TabOrder = 1
+    end
+    object btClose: TButton
+      Left = 838
+      Height = 25
+      Top = 1
+      Width = 75
+      Caption = 'Close'
+      TabOrder = 2
+    end
+    object spOrder: TSpinEdit
+      Left = 262
+      Height = 21
+      Top = -2
+      Width = 96
+      MaxValue = 999999
+      TabOrder = 3
+    end
+    object BtnClose: TButton
+      Left = 725
+      Height = 25
+      Top = 1
+      Width = 75
+      Caption = 'Close'
+      OnClick = BtnCloseClick
+      TabOrder = 4
+    end
+    object Label1: TLabel
+      Left = 22
+      Height = 13
+      Top = 0
+      Width = 43
+      Caption = 'Windows'
+      ParentColor = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Height = 431
+    Top = 0
+    Width = 804
+    Align = alClient
+    ClientHeight = 413
+    ClientWidth = 800
+    TabOrder = 1
+    object Chart1: TChart
+      Left = 0
+      Height = 413
+      Top = 0
+      Width = 707
+      AxisList = <      
+        item
+          Minors = <>
+          Title.LabelFont.Orientation = 900
+        end      
+        item
+          Alignment = calBottom
+          Minors = <>
+        end>
+      Foot.Brush.Color = clBtnFace
+      Foot.Font.Color = clBlue
+      Title.Brush.Color = clBtnFace
+      Title.Font.Color = clBlue
+      Title.Text.Strings = (
+        'TAChart'
+      )
+      Align = alClient
+      ParentColor = False
+      object RectangularSerie: TLineSeries
+        Legend.Format = 'Rectangle'
+        LinePen.Color = clMaroon
+        LinePen.Width = 3
+        Pointer.Pen.Color = clMaroon
+        Pointer.Pen.Width = 3
+        Pointer.Style = psDiagCross
+        ShowPoints = True
+      end
+      object TriangularSerie: TLineSeries
+        Legend.Format = 'Triangle'
+        LinePen.Color = clYellow
+        LinePen.Width = 3
+        Pointer.Pen.Color = clYellow
+        Pointer.Pen.Width = 3
+        Pointer.Style = psTriangle
+        ShowPoints = True
+      end
+      object GaussSerie: TLineSeries
+        Legend.Format = 'Gauss'
+        LinePen.Color = clBlue
+        LinePen.Width = 3
+        Pointer.Pen.Color = clBlue
+        Pointer.Pen.Width = 3
+        Pointer.Style = psCircle
+        Pointer.Visible = False
+        ShowPoints = True
+      end
+      object BlackManSerie: TLineSeries
+        Legend.Format = 'BlackMan'
+        LinePen.Width = 3
+        Pointer.Pen.Width = 3
+        Pointer.Style = psNone
+        ShowPoints = True
+      end
+      object Cos2Serie: TLineSeries
+        Legend.Format = 'Cos^2'
+        LinePen.Color = clFuchsia
+        LinePen.Width = 3
+        Pointer.Pen.Color = clFuchsia
+        Pointer.Pen.Width = 3
+        ShowPoints = True
+      end
+      object HammingSerie: TLineSeries
+        Legend.Format = 'Hamming'
+        LinePen.Color = clLime
+        LinePen.Width = 3
+        Pointer.Pen.Color = clLime
+        Pointer.Pen.Width = 3
+        Pointer.Style = psStar
+        ShowPoints = True
+      end
+      object HanningSerie: TLineSeries
+        Legend.Format = 'Hanning'
+        LinePen.Color = clAqua
+        LinePen.Width = 3
+        Pointer.Pen.Color = clAqua
+        Pointer.Pen.Width = 3
+        Pointer.Style = psCross
+        ShowPoints = True
+      end
+      object KaisserSerie: TLineSeries
+        Legend.Format = 'Kaisser'
+        LinePen.Color = clRed
+        LinePen.Width = 3
+        Pointer.Pen.Color = clRed
+        Pointer.Pen.Width = 3
+        Pointer.Style = psCircle
+        ShowPoints = True
+      end
+      object LanczosSeries: TLineSeries
+        Legend.Format = 'Lanczos'
+        LinePen.Color = clRed
+        LinePen.Style = psDot
+        LinePen.Width = 3
+        Pointer.Pen.Width = 3
+        Pointer.Style = psCircle
+        ShowPoints = True
+      end
+      object TukeySeries: TLineSeries
+        Legend.Format = 'Tukey'
+        LinePen.Color = clRed
+        LinePen.Width = 3
+        Pointer.Pen.Color = 16711808
+        Pointer.Pen.Width = 3
+        Pointer.Style = psCircle
+        ShowPoints = True
+      end
+      object BlackmanHarrisSeries: TLineSeries
+        Legend.Format = 'BlackmanHarris'
+        LinePen.Color = 8421631
+        LinePen.Width = 3
+        Pointer.Pen.Color = clGreen
+        Pointer.Pen.Width = 3
+        Pointer.Style = psDiamond
+        ShowPoints = True
+      end
+      object FlatTopSeries: TLineSeries
+        Legend.Format = 'FlatTop'
+        LinePen.Color = clNavy
+        LinePen.Width = 3
+        Pointer.Pen.Color = clBlue
+        Pointer.Pen.Width = 3
+        ShowPoints = True
+      end
+      object BohmanSeries: TLineSeries
+        Legend.Format = 'Bohman'
+        LinePen.Color = clGreen
+        LinePen.Width = 4
+        Pointer.Pen.Width = 3
+        ShowPoints = True
+      end
+      object NuttallSeries: TLineSeries
+        Legend.Format = 'Nuttall'
+        LinePen.Color = clMaroon
+        LinePen.Width = 4
+        Pointer.Pen.Color = clYellow
+        Pointer.Pen.Width = 4
+        ShowPoints = True
+      end
+      object BlackmanNuttallSeries: TLineSeries
+        Legend.Format = 'BlackmanNuttall'
+        LinePen.Width = 4
+        Pointer.Brush.Color = clMaroon
+        Pointer.Pen.Color = clMaroon
+        Pointer.Pen.Width = 4
+        ShowPoints = True
+      end
+      object ParzenSeries: TLineSeries
+        Legend.Format = 'Parzen'
+        LinePen.Color = clGreen
+        LinePen.Width = 4
+        Pointer.Brush.Color = clPurple
+        Pointer.Pen.Color = clPurple
+        Pointer.Pen.Width = 4
+        ShowPoints = True
+      end
+    end
+    object ChartLegendPanel1: TChartLegendPanel
+      Left = 707
+      Height = 413
+      Top = 0
+      Width = 93
+      Chart = Chart1
+      Align = alRight
+    end
+  end
+  object WinGauss1: TWinGauss
+    GA1 = 3
+    Order = 0
+    Gain = 1
+    left = 112
+    top = 64
+  end
+  object WinRectangular1: TWinRectangular
+    RA1 = 1
+    Order = 0
+    Gain = 1
+    left = 192
+    top = 64
+  end
+  object WinTriangle1: TWinTriangle
+    Order = 0
+    Gain = 1
+    left = 280
+    top = 64
+  end
+  object WinHamming1: TWinHamming
+    A1 = 0.543478261
+    Order = 0
+    Gain = 1
+    left = 272
+    top = 168
+  end
+  object WinBlackman1: TWinBlackman
+    A1 = 0.42659
+    A2 = 0.49656
+    A3 = 0.076848
+    Order = 0
+    Gain = 1
+    left = 112
+    top = 280
+  end
+  object WinCos2_1: TWinCos2
+    Order = 0
+    Gain = 1
+    left = 112
+    top = 168
+  end
+  object WinHanning1: TWinHanning
+    A1 = 0.5
+    Order = 0
+    Gain = 1
+    left = 272
+    top = 280
+  end
+  object WinLanczos1: TWinLanczos
+    Order = 0
+    Gain = 1
+    left = 192
+    top = 280
+  end
+  object WinTukey1: TWinTukey
+    A1 = 0.5
+    Order = 0
+    Gain = 1
+    left = 392
+    top = 168
+  end
+  object WinKaiser1: TWinKaiser
+    Order = 0
+    Ripple = 0
+    TW = 0
+    Gain = 1
+    left = 504
+    top = 168
+  end
+  object WinBlackmanHarris1: TWinBlackmanHarris
+    A1 = 0.35875
+    A2 = 0.48829
+    A3 = 0.14128
+    A4 = 0.01168
+    Order = 0
+    Gain = 1
+    left = 600
+    top = 64
+  end
+  object WinFlatTop1: TWinFlatTop
+    A1 = 1
+    A2 = 1.93
+    A3 = 1.29
+    A4 = 0.388
+    A5 = 0.032
+    Order = 0
+    Gain = 1
+    left = 192
+    top = 168
+  end
+  object WinBohman1: TWinBohman
+    Order = 0
+    Gain = 1
+    left = 392
+    top = 280
+  end
+  object WinNuttall1: TWinNuttall
+    A0 = 0.355768
+    A1 = 0.487396
+    A2 = 0.144232
+    A3 = 0.012604
+    Order = 0
+    Gain = 1
+    left = 512
+    top = 64
+  end
+  object WinBlackmanNuttall1: TWinBlackmanNuttall
+    BNA0 = 0.4891775
+    BNA1 = 0.4891775
+    BNA2 = 0.1365995
+    BNA3 = 0.0106411
+    Order = 0
+    Gain = 1
+    left = 600
+    top = 168
+  end
+  object WinParzen1: TWinParzen
+    left = 392
+    top = 64
+  end
+  object WinFlatTop2: TWinFlatTop
+    A1 = 1
+    A2 = 1.93
+    A3 = 1.29
+    A4 = 0.388
+    A5 = 0.032
+    Order = 0
+    Gain = 1
+    left = 802
+    top = 478
+  end
+end

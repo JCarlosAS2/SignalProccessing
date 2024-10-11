@@ -1,0 +1,455 @@
+object Form1: TForm1
+  Left = 303
+  Height = 528
+  Top = 133
+  Width = 884
+  Caption = 'FIIRHPChebyshev Example'
+  ClientHeight = 528
+  ClientWidth = 884
+  Icon.Data = {
+    D60200000000010001001E1E100001000400C002000016000000280000001E00
+    00003C0000000100040000000000000000000000000000000000000000000000
+    00008F2A00002B14CF004B37D6002A8A3000C2BCF10000DAF800FFFFFF000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000355000111116666666111111000553003550000111666666666611100005
+    5300335500001666666666666100005533003335500066666666666666000553
+    3300333550000111166621111100055333007333550001111166111110005533
+    3700733355000011116611110000553337007733355000111164111000055333
+    7700777335550001111111100055533777007773335500011111110000553337
+    7700777733355000111111000553337777007777333550001111100005533377
+    7700777773335500011110005533377777007777733355000011000055333777
+    7700777777333550001100055333777777007777777335550000005553377777
+    7700777777733355000000553337777777007777777733355000055333777777
+    7700777777773335500005533377777777007777777773335500553337777777
+    7700777777777333550055333777777777007777777777333555533377777777
+    7700777777777773355553377777777777007777777777733355333777777777
+    7700777777777777333333777777777777007777777777773333337777777777
+    7700777777777777733337777777777777007777777777777733377777777777
+    7700777777777777773377777777777777007777777777777777777777777777
+    770000000000000000000000000000000000000000008000000480000004C000
+    000CE000001CE000001CF000003CF000003CF800007CF800007CFC0000FCFE00
+    01FCFE0001FCFF0003FCFF0003FCFF8007FCFF8007FCFFC00FFCFFE01FFCFFE0
+    1FFCFFF03FFCFFF03FFCFFF87FFCFFFC7FFCFFFCFFFCFFFFFFFC
+  }
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 177
+    Top = 328
+    Width = 884
+    HorzScrollBar.Page = 884
+    VertScrollBar.Page = 177
+    Align = alBottom
+    BorderStyle = bsNone
+    ClientHeight = 177
+    ClientWidth = 884
+    TabOrder = 0
+    OnClick = ScrollBox1Click
+    object ChebyshevPropertiesBox6: TGroupBox
+      Left = 464
+      Height = 165
+      Top = 0
+      Width = 208
+      ClientHeight = 147
+      ClientWidth = 204
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = 'MS Sans Serif'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      object seRipple: TSpinEdit
+        Left = 58
+        Height = 24
+        Top = 24
+        Width = 66
+        MaxValue = 50
+        MinValue = 1
+        OnChange = seRippleChange
+        TabOrder = 0
+        Value = 30
+      end
+      object Label5: TLabel
+        Left = 10
+        Height = 17
+        Top = 29
+        Width = 48
+        Caption = 'Ripple'
+        ParentColor = False
+      end
+      object Label6: TLabel
+        Left = 131
+        Height = 17
+        Top = 29
+        Width = 52
+        Caption = '/ 10 DB'
+        ParentColor = False
+      end
+    end
+    object GeneratorBox: TGroupBox
+      Left = 8
+      Height = 165
+      Top = 0
+      Width = 282
+      Caption = ' Source '
+      ClientHeight = 147
+      ClientWidth = 278
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 1
+      object rbSin: TRadioButton
+        Left = 9
+        Height = 20
+        Top = 2
+        Width = 47
+        Caption = 'Sine'
+        Checked = True
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        OnClick = rbSourceClick
+        ParentFont = False
+        TabOrder = 0
+        TabStop = True
+      end
+      object rbSquare: TRadioButton
+        Left = 96
+        Height = 20
+        Top = 2
+        Width = 64
+        Caption = 'Square'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        OnClick = rbSourceClick
+        ParentFont = False
+        TabOrder = 1
+      end
+      object rbTriangle: TRadioButton
+        Left = 200
+        Height = 20
+        Top = 2
+        Width = 71
+        Caption = 'Triangle'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        OnClick = rbSourceClick
+        ParentFont = False
+        TabOrder = 2
+      end
+      object lFreq2: TLabel
+        Left = 33
+        Height = 17
+        Top = 53
+        Width = 30
+        Caption = 'Freq'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object lAmp2: TLabel
+        Left = 33
+        Height = 17
+        Top = 83
+        Width = 30
+        Caption = 'Amp'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label7: TLabel
+        Left = 13
+        Height = 17
+        Top = 118
+        Width = 91
+        Caption = 'F.SampleRate'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object FloatSpinEditFreq1: TFloatSpinEdit
+        Left = 81
+        Height = 24
+        Top = 52
+        Width = 74
+        Increment = 1
+        MaxValue = 20000
+        MinValue = 0
+        OnChange = FloatSpinEditFreqChange
+        TabOrder = 3
+        Value = 30
+      end
+      object FloatSpinEditAmp1: TFloatSpinEdit
+        Left = 81
+        Height = 24
+        Top = 82
+        Width = 74
+        Increment = 1
+        MaxValue = 100
+        MinValue = 0
+        OnChange = FloatSpinEditAmpChange
+        TabOrder = 4
+        Value = 100
+      end
+      object FloatSpinEditSampleRate: TFloatSpinEdit
+        Left = 122
+        Height = 24
+        Top = 115
+        Width = 74
+        Increment = 1
+        MaxValue = 44100
+        MinValue = 0
+        TabOrder = 5
+        Value = 1000
+      end
+      object FloatSpinEditFreq2: TFloatSpinEdit
+        Left = 169
+        Height = 24
+        Top = 52
+        Width = 76
+        Increment = 1
+        MaxValue = 20000
+        MinValue = 0
+        OnChange = FloatSpinEditFreqChange
+        TabOrder = 6
+        Value = 300
+      end
+      object FloatSpinEditAmp2: TFloatSpinEdit
+        Left = 169
+        Height = 24
+        Top = 82
+        Width = 76
+        Increment = 1
+        MaxValue = 100
+        MinValue = 0
+        OnChange = FloatSpinEditAmpChange
+        TabOrder = 7
+        Value = 100
+      end
+      object Label3: TLabel
+        Left = 88
+        Height = 17
+        Top = 29
+        Width = 53
+        Caption = 'Signal 1'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label4: TLabel
+        Left = 179
+        Height = 17
+        Top = 29
+        Width = 53
+        Caption = 'Signal 2'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -13
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object FilterPropertiesBox: TGroupBox
+      Left = 296
+      Height = 165
+      Top = 0
+      Width = 161
+      Caption = 'Filter Properties'
+      ClientHeight = 147
+      ClientWidth = 157
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+      object lFilterFreq11: TLabel
+        Left = 8
+        Height = 17
+        Top = 46
+        Width = 55
+        Caption = 'FreqCut '
+        ParentColor = False
+      end
+      object Label1: TLabel
+        Left = 23
+        Height = 17
+        Top = 17
+        Width = 37
+        Caption = 'Order'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        Left = 26
+        Height = 17
+        Top = 77
+        Width = 31
+        Caption = 'Gain'
+        ParentColor = False
+      end
+      object FloatSpinEditGain: TFloatSpinEdit
+        Left = 68
+        Height = 24
+        Top = 73
+        Width = 80
+        Increment = 1
+        MaxValue = 100
+        MinValue = -100
+        OnChange = FloatSpinEditGainChange
+        TabOrder = 0
+        Value = 1
+      end
+      object SpinEditOrder: TSpinEdit
+        Left = 68
+        Height = 24
+        Top = 12
+        Width = 80
+        MaxValue = 7
+        MinValue = 1
+        OnChange = SpinEditOrderChange
+        TabOrder = 1
+        Value = 1
+      end
+      object FloatSpinEditFreqCut1: TFloatSpinEdit
+        Left = 68
+        Height = 24
+        Top = 44
+        Width = 80
+        Increment = 1
+        MaxValue = 20000
+        MinValue = 0
+        OnChange = FloatSpinEditFreqCut1Change
+        TabOrder = 2
+        Value = 30
+      end
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 505
+    Width = 884
+    Panels = <    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 328
+    Top = 0
+    Width = 884
+    Align = alClient
+    ClientHeight = 328
+    ClientWidth = 884
+    TabOrder = 2
+    object Chart1: TChart
+      Left = 1
+      Height = 326
+      Top = 1
+      Width = 882
+      AxisList = <      
+        item
+          Minors = <>
+          Title.LabelFont.Orientation = 900
+        end      
+        item
+          Alignment = calBottom
+          Minors = <>
+        end>
+      Extent.UseXMax = True
+      Extent.UseXMin = True
+      Extent.XMax = 1E-8
+      Foot.Brush.Color = clBtnFace
+      Foot.Font.Color = clBlue
+      Legend.Visible = True
+      Title.Brush.Color = clBtnFace
+      Title.Font.Color = clBlue
+      Title.Text.Strings = (
+        'TAChart'
+      )
+      Align = alClient
+      DoubleBuffered = True
+      ParentColor = False
+      object Series1: TLineSeries
+        Title = 'Input'
+        LinePen.Color = clBlue
+      end
+      object Series2: TLineSeries
+        Title = 'Output (Filtered)'
+        LinePen.Color = clRed
+      end
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 50
+    OnTimer = Timer1Timer
+    left = 808
+    top = 96
+  end
+  object FilterIIRHPChebyshev1: TFilterIIRHPChebyshev
+    Order = 1
+    SampleRate = 1000
+    FreqCut1 = 40
+    Gain = 1
+    Ripple = 3
+    left = 808
+    top = 176
+  end
+end

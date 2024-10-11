@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object GroupBox1: TGroupBox
+    Position.X = 443.000000000000000000
+    Size.Width = 197.000000000000000000
+    Size.Height = 137.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Signal Properties'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 1
+    Left = 690
+    Top = 10
+    object Label1: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Noise'
+      Left = 18
+      Top = 10
+    end
+    object ScrollBar1: TScrollBar
+      SmallChange = 0.000000000000000000
+      Orientation = Horizontal
+      Position.X = 8.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 171.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Left = 18
+      Top = 40
+    end
+    object Label2: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 71.000000000000000000
+      Size.Width = 35.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Freq.'
+      Left = 18
+      Top = 90
+    end
+    object SBFreq1: TScrollBar
+      SmallChange = 0.000000000000000000
+      Orientation = Horizontal
+      Position.X = 8.000000000000000000
+      Position.Y = 99.000000000000000000
+      Size.Width = 170.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Left = 18
+      Top = 120
+    end
+  end
+  object GroupBox2: TGroupBox
+    Position.X = 443.000000000000000000
+    Position.Y = 145.000000000000000000
+    Size.Width = 189.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Windows Type'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 2
+    Left = 690
+    Top = 240
+    object CBoxWind: TComboBox
+      Items.Strings = (
+        'Rectangular'
+        'Triangle'
+        'Gauss'
+        'BlackMan'
+        'Cos^2'
+        'Hamming'
+        'Hanning'
+        'Kaisser'
+        'Lanczos'
+        'Turkey'
+        'BlackManHarris'
+        'FlatTop')
+      ItemIndex = 0
+      ItemHeight = 20.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 170.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Left = 18
+      Top = 10
+    end
+  end
+end

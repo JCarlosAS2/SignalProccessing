@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="FIIRLPChebyshev"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="5">
+      <Item1>
+        <PackageName Value="LazFiltersPkg"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="MemDSLaz"/>
+        <MinVersion Major="1" Minor="2" Valid="True" Release="1"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="TAChartLazarusPkg"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
+    </RequiredPackages>
+    <Units Count="20">
+      <Unit0>
+        <Filename Value="FIIRLPChebyshev.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FIIRLPChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="34" Y="14"/>
+        <UsageCount Value="59"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="38"/>
+        <CursorPos X="26" Y="47"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\Source\dspIIRFilters.pas"/>
+        <UnitName Value="dspIIRFilters"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="120"/>
+        <CursorPos X="6" Y="152"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Source\dspComplex.pas"/>
+        <UnitName Value="dspcomplex"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="160"/>
+        <CursorPos X="23" Y="154"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\Source\dspTypes.pas"/>
+        <UnitName Value="dspTypes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="18" Y="6"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3150"/>
+        <CursorPos X="1" Y="3167"/>
+        <UsageCount Value="16"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3055"/>
+        <CursorPos X="1" Y="3039"/>
+        <UsageCount Value="16"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\fpc\2.4.1\source\rtl\inc\mathh.inc"/>
+        <TopLine Value="4"/>
+        <CursorPos X="60" Y="90"/>
+        <UsageCount Value="11"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\fpc\2.4.1\source\rtl\objpas\math.pp"/>
+        <UnitName Value="math"/>
+        <TopLine Value="248"/>
+        <CursorPos X="13" Y="265"/>
+        <UsageCount Value="11"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\fpc\2.4.1\source\rtl\i386\mathu.inc"/>
+        <TopLine Value="10"/>
+        <CursorPos X="32" Y="23"/>
+        <UsageCount Value="11"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\filteriirpbchebyshev.pas"/>
+        <UnitName Value="FilterIIRPBChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="21" Y="17"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\filteriirpb.pas"/>
+        <UnitName Value="FilterIIRPB"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="48"/>
+        <CursorPos X="1" Y="62"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\uoperator.pas"/>
+        <UnitName Value="UOperator"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="9"/>
+        <CursorPos X="13" Y="22"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\filteriir.pas"/>
+        <UnitName Value="FilterIIR"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="10"/>
+        <UsageCount Value="16"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\filter.pas"/>
+        <UnitName Value="Filter"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="25"/>
+        <CursorPos X="34" Y="18"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\UConst.pas"/>
+        <UnitName Value="UConst"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="31"/>
+        <CursorPos X="7" Y="46"/>
+        <UsageCount Value="17"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\UType.pas"/>
+        <UnitName Value="UType"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="2" Y="2"/>
+        <UsageCount Value="16"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\defines.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="22" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\SignalProc\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="76" Y="27"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\..\SignalProc\utbasefreqanalisys.pas"/>
+        <UnitName Value="UTBaseFreqAnalisys"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="48"/>
+        <CursorPos X="6" Y="82"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="198" Column="25" TopLine="178"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="197" Column="25" TopLine="177"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="196" Column="25" TopLine="176"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="210" Column="25" TopLine="190"/>
+      </Position4>
+      <Position5>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="68" Column="17" TopLine="59"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="67" Column="17" TopLine="58"/>
+      </Position6>
+      <Position7>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="66" Column="17" TopLine="57"/>
+      </Position7>
+      <Position8>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="65" Column="17" TopLine="56"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="FIIRLPChebyshev"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <Libraries Value="..\.."/>
+      <OtherUnitFiles Value="..\.."/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="True"/>
+        <DebugInfoType Value="dsAuto"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

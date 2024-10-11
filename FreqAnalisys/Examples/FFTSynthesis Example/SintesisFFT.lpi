@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="LazWinWtg"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="lazsignalproc"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="TAChartLazarusPkg"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="SintesisFFT.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SintesisFFT"/>
+        <UsageCount Value="21"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit_Main"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="97"/>
+        <CursorPos X="28" Y="111"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\components\tachart\taseries.pas"/>
+        <UnitName Value="TASeries"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="535"/>
+        <CursorPos X="1" Y="542"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <UnitName Value="TAGraph"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="720"/>
+        <CursorPos X="1" Y="731"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\SignalProc(ultimo agosto 6)\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="19" Y="785"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\SignalProc(ultimo agosto 6)\cepstrum.pas"/>
+        <UnitName Value="Cepstrum"/>
+        <TopLine Value="1"/>
+        <CursorPos X="41" Y="8"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\SignalProc(ultimo agosto 6)\TCepstrum.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="166"/>
+        <CursorPos X="7" Y="179"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\utbasefreqanalisys.pas"/>
+        <UnitName Value="UTBaseFreqAnalisys"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="1" Y="35"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="29" Column="36" TopLine="29"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="248" Column="1" TopLine="221"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="177" Column="6" TopLine="153"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="79" Column="3" TopLine="74"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="78" Column="3" TopLine="73"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="79" Column="3" TopLine="74"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="78" Column="3" TopLine="73"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="104" Column="59" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="103" Column="59" TopLine="63"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="104" Column="59" TopLine="64"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="79" Column="37" TopLine="65"/>
+      </Position11>
+      <Position12>
+        <Filename Value="unit_main.pas"/>
+        <Caret Line="108" Column="41" TopLine="98"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="SintesisFFT"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

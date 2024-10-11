@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="DCTF.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DCTF"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="21"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\udctf.pas"/>
+        <UnitName Value="UDCTF"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="59"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\udct.pas"/>
+        <UnitName Value="UDCT"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="145"/>
+        <CursorPos X="8" Y="31"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Fourier.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="2" Y="17"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\cepstrum.pas"/>
+        <UnitName Value="Cepstrum"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="23"/>
+        <CursorPos X="49" Y="93"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="..\..\udctf.pas"/>
+        <Caret Line="33" Column="7" TopLine="9"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\udctf.pas"/>
+        <Caret Line="21" Column="4" TopLine="8"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\udctf.pas"/>
+        <Caret Line="25" Column="29" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\udctf.pas"/>
+        <Caret Line="25" Column="23" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\udctf.pas"/>
+        <Caret Line="22" Column="36" TopLine="9"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\udctf.pas"/>
+        <Caret Line="21" Column="4" TopLine="6"/>
+      </Position6>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

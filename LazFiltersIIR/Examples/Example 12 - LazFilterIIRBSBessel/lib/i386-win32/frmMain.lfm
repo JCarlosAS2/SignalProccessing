@@ -1,0 +1,388 @@
+object Form1: TForm1
+  Left = 277
+  Height = 556
+  Top = 274
+  Width = 884
+  Caption = 'FIIRBSBessel Example'
+  ClientHeight = 556
+  ClientWidth = 884
+  Icon.Data = {
+    C60800000000010001001A1A000001001800B008000016000000280000001A00
+    0000340000000100180000000000200800006400000064000000000000000000
+    0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000
+    FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF00
+    00FF0000FF0000FF0000FF0000FF00000000FF0000CEFFFFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCE
+    FFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFF000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    00000000000000000000CEFFFFFF00000000FF0000CEFFFF000000CEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFF0000FF0000FF0000FF0000FF0000FF0000FF0000FF00
+    00FF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFF000000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FF
+    0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFFF00000000FF0000CEFFFF000000CEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCE
+    FFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFF000000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FF
+    CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFFF00000000FF0000CEFFFF000000CEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCE
+    FFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFF000000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FF
+    CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFFF00000000FF0000CEFFFF000000CEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCE
+    FFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFF000000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FF
+    CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFFF00000000FF0000CEFFFF000000CEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCE
+    FFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFF000000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FF
+    CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFFF00000000FF0000CEFFFF000000CEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCE
+    FFFF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFF000000CEFFFF0000FF0000FF0000FF0000FF0000FF0000FF
+    CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF0000FF0000FF0000FF0000FF0000
+    FF0000FFCEFFFFCEFFFFCEFFFFFF00000000FF0000CEFFFF000000CEFFFF0000
+    FF0000FF0000FF0000FF0000FF0000FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCE
+    FFFF0000FF0000FF0000FF0000FF0000FF0000FFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFF000000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF
+    CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFFF00000000FF0000CEFFFFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF47493647493647
+    4936474936CEFFFFCEFFFFCEFFFFCEFFFF474936474936CEFFFFCEFFFFFF0000
+    0000FF0000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF
+    CEFFFFCEFFFFCEFFFF474936CEFFFFCEFFFFCEFFFF474936CEFFFFCEFFFF4749
+    36CEFFFFCEFFFF474936CEFFFFFF00000000FF0000CEFFFFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF474936CEFFFFCE
+    FFFFCEFFFF474936CEFFFFCEFFFFCEFFFFCEFFFFCEFFFF474936CEFFFFFF0000
+    0000FF0000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF
+    CEFFFFCEFFFFCEFFFF474936474936474936474936CEFFFFCEFFFFCEFFFFCEFF
+    FF474936474936CEFFFFCEFFFFFF00000000FF0000CEFFFFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF474936CEFFFFCE
+    FFFFCEFFFF474936CEFFFFCEFFFF474936CEFFFFCEFFFFCEFFFFCEFFFFFF0000
+    0000FF0000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF
+    CEFFFFCEFFFFCEFFFF474936CEFFFFCEFFFFCEFFFF474936CEFFFFCEFFFF4749
+    36CEFFFFCEFFFF474936CEFFFFFF00000000FF0000CEFFFFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF47493647493647
+    4936474936CEFFFFCEFFFFCEFFFFCEFFFF474936474936CEFFFFCEFFFFFF0000
+    0000FF0000CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFF
+    CEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFFFFCEFF
+    FFCEFFFFCEFFFFCEFFFFCEFFFFFF00000000FF0000FF0000FF0000FF0000FF00
+    00FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF
+    0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    00000000000000000000
+  }
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Height = 181
+    Top = 352
+    Width = 884
+    Align = alBottom
+    BorderStyle = bsNone
+    ClientHeight = 181
+    ClientWidth = 884
+    TabOrder = 0
+    OnClick = ScrollBox1Click
+    object GeneratorBox: TGroupBox
+      Left = 8
+      Height = 168
+      Top = 1
+      Width = 248
+      Caption = ' Source '
+      ClientHeight = 150
+      ClientWidth = 244
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      object rbSin: TRadioButton
+        Left = 9
+        Height = 20
+        Top = 0
+        Width = 47
+        Caption = 'Sine'
+        Checked = True
+        OnClick = rbSourceClick
+        TabOrder = 0
+        TabStop = True
+      end
+      object rbSquare: TRadioButton
+        Left = 78
+        Height = 20
+        Top = 0
+        Width = 64
+        Caption = 'Square'
+        OnClick = rbSourceClick
+        TabOrder = 1
+      end
+      object rbTriangle: TRadioButton
+        Left = 166
+        Height = 20
+        Top = -1
+        Width = 71
+        Caption = 'Triangle'
+        OnClick = rbSourceClick
+        TabOrder = 2
+      end
+      object Label6: TLabel
+        Left = 16
+        Height = 17
+        Top = 116
+        Width = 91
+        Caption = 'F.SampleRate'
+        ParentColor = False
+      end
+      object FloatSpinEditSampleRate: TFloatSpinEdit
+        Left = 121
+        Height = 24
+        Top = 114
+        Width = 74
+        Increment = 1
+        MaxValue = 44100
+        MinValue = 0
+        TabOrder = 3
+        Value = 1000
+      end
+      object lFreq2: TLabel
+        Left = 16
+        Height = 17
+        Top = 56
+        Width = 30
+        Caption = 'Freq'
+        ParentColor = False
+      end
+      object lAmp2: TLabel
+        Left = 16
+        Height = 17
+        Top = 85
+        Width = 30
+        Caption = 'Amp'
+        ParentColor = False
+      end
+      object FloatSpinEditFreq1: TFloatSpinEdit
+        Left = 121
+        Height = 24
+        Top = 51
+        Width = 74
+        Increment = 1
+        MaxValue = 20000
+        MinValue = 0
+        OnChange = FloatSpinEditFreqChange
+        TabOrder = 4
+        Value = 300
+      end
+      object FloatSpinEditAmp1: TFloatSpinEdit
+        Left = 121
+        Height = 24
+        Top = 83
+        Width = 74
+        Increment = 1
+        MaxValue = 100
+        MinValue = 0
+        OnChange = FloatSpinEditAmpChange
+        TabOrder = 5
+        Value = 100
+      end
+      object Label7: TLabel
+        Left = 126
+        Height = 17
+        Top = 29
+        Width = 46
+        Caption = 'Signal '
+        ParentColor = False
+      end
+    end
+    object FilterPropertiesBox: TGroupBox
+      Left = 264
+      Height = 167
+      Top = 1
+      Width = 304
+      Caption = 'Filter Properties'
+      ClientHeight = 149
+      ClientWidth = 300
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -13
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 1
+      object lFilterFreq11: TLabel
+        Left = 8
+        Height = 17
+        Top = 58
+        Width = 62
+        Caption = 'FreqCut 1'
+        ParentColor = False
+      end
+      object Label1: TLabel
+        Left = 8
+        Height = 17
+        Top = 29
+        Width = 37
+        Caption = 'Order'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        Left = 172
+        Height = 17
+        Top = 29
+        Width = 31
+        Caption = 'Gain'
+        ParentColor = False
+      end
+      object FloatSpinEditGain: TFloatSpinEdit
+        Left = 212
+        Height = 24
+        Top = 24
+        Width = 80
+        Increment = 1
+        MaxValue = 100
+        MinValue = -100
+        OnChange = FloatSpinEditGainChange
+        TabOrder = 0
+        Value = 1
+      end
+      object SpinEditOrder: TSpinEdit
+        Left = 82
+        Height = 24
+        Top = 24
+        Width = 80
+        MaxValue = 8
+        MinValue = 1
+        OnChange = SpinEditOrderChange
+        TabOrder = 1
+        Value = 1
+      end
+      object FloatSpinEditFreqCut1: TFloatSpinEdit
+        Left = 82
+        Height = 24
+        Top = 56
+        Width = 80
+        Increment = 1
+        MaxValue = 20000
+        MinValue = 0
+        OnChange = FloatSpinEditFreqCut1Change
+        TabOrder = 2
+        Value = 200
+      end
+      object Label3: TLabel
+        Left = 8
+        Height = 17
+        Top = 91
+        Width = 62
+        Caption = 'FreqCut 2'
+        ParentColor = False
+      end
+      object FloatSpinEditFreqCut2: TFloatSpinEdit
+        Left = 82
+        Height = 24
+        Top = 87
+        Width = 80
+        Increment = 1
+        MaxValue = 20000
+        MinValue = 0
+        OnChange = FloatSpinEditFreqCut2Change
+        TabOrder = 3
+        Value = 300
+      end
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 533
+    Width = 884
+    Panels = <    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 352
+    Top = 0
+    Width = 884
+    Align = alClient
+    ClientHeight = 352
+    ClientWidth = 884
+    TabOrder = 2
+    object Chart1: TChart
+      Left = 1
+      Height = 335
+      Top = 16
+      Width = 882
+      AxisList = <      
+        item
+          Title.LabelFont.Orientation = 900
+        end      
+        item
+          Alignment = calBottom
+        end>
+      Extent.XMax = 1E-8
+      Extent.UseXMin = True
+      Extent.UseXMax = True
+      Foot.Brush.Color = clBtnFace
+      Foot.Font.Color = clBlue
+      Legend.Visible = True
+      Title.Brush.Color = clBtnFace
+      Title.Font.Color = clBlue
+      Title.Text.Strings = (
+        ''
+      )
+      Align = alClient
+      DoubleBuffered = True
+      ParentColor = False
+      object Series1: TLineSeries
+        Title = 'Input'
+        LinePen.Color = clBlue
+      end
+      object Series2: TLineSeries
+        Title = 'Output (filtered)'
+        LinePen.Color = clRed
+      end
+    end
+    object Splitter1: TSplitter
+      Cursor = crVSplit
+      Left = 1
+      Height = 15
+      Top = 1
+      Width = 882
+      Align = alTop
+      ResizeAnchor = akTop
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 50
+    OnTimer = Timer1Timer
+    left = 808
+    top = 96
+  end
+  object FilterIIRBSBessel1: TFilterIIRBSBessel
+    FreqCut1 = 40
+    FreqCut2 = 60
+    Order = 1
+    SampleRate = 1000
+    Gain = 1
+    left = 808
+    top = 160
+  end
+end

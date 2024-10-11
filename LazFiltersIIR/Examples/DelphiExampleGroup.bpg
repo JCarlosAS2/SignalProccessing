@@ -1,0 +1,56 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = FIIRLPButterworth.exe FIIRLPChebyshev.exe FIIRLPBessel.exe \
+  FIIRHPButterworth.exe FIIRHPChebyshev.exe FIIRHPBessel.exe \
+  FIIRBPButterworth.exe FIIRBPChebyshev.exe FIIRBPBessel.exe \
+  FIIRBSButterworth.exe FIIRBSChebyshev.exe FIIRBSBessel.exe
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+FIIRLPButterworth.exe: Example 1 - DelphiFilterIIRLPButterworth\FIIRLPButterworth.dpr
+  $(DCC)
+
+FIIRLPChebyshev.exe: Example 2 - DelphiFilterIIRLPChebyshev\FIIRLPChebyshev.dpr
+  $(DCC)
+
+FIIRLPBessel.exe: Example 3 - DelphiFilterIIRLPBessel\FIIRLPBessel.dpr
+  $(DCC)
+
+FIIRHPButterworth.exe: Example 4 - DelphiFilterIIRHPButterworth\FIIRHPButterworth.dpr
+  $(DCC)
+
+FIIRHPChebyshev.exe: Example 5 - DelphiFilterIIRHPChebyshev\FIIRHPChebyshev.dpr
+  $(DCC)
+
+FIIRHPBessel.exe: Example 6 - DelphiFilterIIRHPBessel\FIIRHPBessel.dpr
+  $(DCC)
+
+FIIRBPButterworth.exe: Example 7 - DelphiFilterIIRBPButterworth\FIIRBPButterworth.dpr
+  $(DCC)
+
+FIIRBPChebyshev.exe: Example 8 - DelphiFilterIIRBPChebyshev\FIIRBPChebyshev.dpr
+  $(DCC)
+
+FIIRBPBessel.exe: Example 9 - DelphiFilterIIRBPBessel\FIIRBPBessel.dpr
+  $(DCC)
+
+FIIRBSButterworth.exe: Example 10 - DelphiFilterIIRBSButterworth\FIIRBSButterworth.dpr
+  $(DCC)
+
+FIIRBSChebyshev.exe: Example 11 - DelphiFilterIIRBSChebyshev\FIIRBSChebyshev.dpr
+  $(DCC)
+
+FIIRBSBessel.exe: Example 12 - DelphiFilterIIRBSBessel\FIIRBSBessel.dpr
+  $(DCC)
+
+

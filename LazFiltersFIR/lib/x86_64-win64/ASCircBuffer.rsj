@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":12166656,"name":"ascircbuffer.notvalidcountvalueerrormsg","sourcebytes":[67,111,117,110,116,32,109,117,115,116,32,98,101,32,62,32,48],"value":"Count must be > 0"},
+{"hash":172498661,"name":"ascircbuffer.notvalidindexvalueerrormsg","sourcebytes":[78,111,116,32,86,97,108,105,100,32,73,110,100,101,120,32,86,97,108,117,101],"value":"Not Valid Index Value"}
+]}

@@ -1,0 +1,770 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="80">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="13" Y="10"/>
+        <UsageCount Value="139"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="100"/>
+        <CursorPos X="3" Y="94"/>
+        <UsageCount Value="139"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\fpc\2.6.1\source\rtl\inc\mathh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="48"/>
+        <CursorPos X="14" Y="69"/>
+        <UsageCount Value="5"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\fpc\2.6.1\source\rtl\inc\innr.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="86"/>
+        <CursorPos X="4" Y="107"/>
+        <UsageCount Value="5"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\FreqAnalisys\ASWinBase.pas"/>
+        <UnitName Value="ASWinBase"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="47"/>
+        <CursorPos X="1" Y="64"/>
+        <UsageCount Value="8"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\FreqAnalisys\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="8"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\fpc\2.6.1\source\rtl\objpas\classes\classesh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="670"/>
+        <CursorPos X="14" Y="691"/>
+        <UsageCount Value="8"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\fpc\2.6.1\source\rtl\objpas\classes\stringl.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1026"/>
+        <CursorPos X="25" Y="1032"/>
+        <UsageCount Value="8"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\FreqAnalisys\ASWinRectangular.pas"/>
+        <UnitName Value="ASWinRectangular"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="84"/>
+        <CursorPos X="20" Y="105"/>
+        <UsageCount Value="8"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\components\tachart\tacustomseries.pas"/>
+        <UnitName Value="TACustomSeries"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="944"/>
+        <CursorPos X="13" Y="963"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\components\tachart\tasources.pas"/>
+        <UnitName Value="TASources"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="352"/>
+        <CursorPos X="1" Y="365"/>
+        <UsageCount Value="8"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\FreqAnalisys\ASWinTriangle.pas"/>
+        <UnitName Value="ASWinTriangle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="12"/>
+        <CursorPos X="34" Y="81"/>
+        <UsageCount Value="8"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\FreqAnalisys\filtertest.pas"/>
+        <UnitName Value="FilterTest"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="28"/>
+        <CursorPos X="1" Y="60"/>
+        <UsageCount Value="8"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\FreqAnalisys\aswingauss.pas"/>
+        <UnitName Value="ASWinGauss"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="82"/>
+        <CursorPos X="6" Y="110"/>
+        <UsageCount Value="7"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\lcl\spin.pp"/>
+        <UnitName Value="Spin"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="129"/>
+        <CursorPos X="55" Y="66"/>
+        <UsageCount Value="6"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3493"/>
+        <CursorPos X="1" Y="3522"/>
+        <UsageCount Value="8"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\lcl\include\spinedit.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="199"/>
+        <CursorPos X="1" Y="216"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="unit1.lfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="253"/>
+        <CursorPos X="1" Y="278"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\FreqAnalisys\lazsignalproc.pas"/>
+        <UnitName Value="lazsignalproc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="21"/>
+        <UsageCount Value="5"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\ASWinRectangular_icon.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\FreqAnalisys\ASWinBase.pas"/>
+        <UnitName Value="ASWinBase"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="22" Y="8"/>
+        <UsageCount Value="5"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\component1.pas"/>
+        <UnitName Value="Component1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\ASWinBase.pas"/>
+        <UnitName Value="ASWinBase"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="85"/>
+        <CursorPos X="2" Y="91"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\aswingauss.pas"/>
+        <UnitName Value="ASWinGauss"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="61"/>
+        <CursorPos X="14" Y="61"/>
+        <UsageCount Value="21"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\ashamming.pas"/>
+        <UnitName Value="ASWinHamming"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="6" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\ASWinCos2.pas"/>
+        <UnitName Value="ASWinCos2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="52"/>
+        <CursorPos X="15" Y="57"/>
+        <UsageCount Value="39"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\ASWinRectangular.pas"/>
+        <UnitName Value="ASWinRectangular"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="60"/>
+        <CursorPos X="15" Y="62"/>
+        <UsageCount Value="46"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\aswinblackman.pas"/>
+        <UnitName Value="ASWinBlackman"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="72"/>
+        <CursorPos X="15" Y="75"/>
+        <UsageCount Value="39"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\ASWinTriangle.pas"/>
+        <UnitName Value="ASWinTriangle"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="49"/>
+        <CursorPos X="14" Y="54"/>
+        <UsageCount Value="45"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\filtertest.pas"/>
+        <UnitName Value="FilterTest"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="50"/>
+        <CursorPos X="11" Y="13"/>
+        <UsageCount Value="15"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\..\LazFiltersIIR\Component\filteriirlpchebyshev.pas"/>
+        <UnitName Value="FilterIIRLPChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\..\LazFiltersIIR\Component\filteriirlpbessel.pas"/>
+        <UnitName Value="FilterIIRLPBessel"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="84"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\..\..\FreqAnalisys\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="61"/>
+        <CursorPos X="10" Y="68"/>
+        <UsageCount Value="10"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\..\aswinhamming.pas"/>
+        <UnitName Value="ASWinHamming"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="52"/>
+        <CursorPos X="15" Y="59"/>
+        <UsageCount Value="20"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\..\..\lcl\include\customcombobox.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="169"/>
+        <CursorPos X="1" Y="181"/>
+        <UsageCount Value="7"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\..\..\lcl\include\wincontrol.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7191"/>
+        <CursorPos X="14" Y="7211"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\..\..\..\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="133"/>
+        <CursorPos X="1" Y="145"/>
+        <UsageCount Value="7"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\..\..\..\lcl\interfaces\win32\win32callback.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2191"/>
+        <CursorPos X="1" Y="2205"/>
+        <UsageCount Value="7"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <UnitName Value="TAGraph"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1136"/>
+        <CursorPos X="3" Y="1155"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\..\..\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="426"/>
+        <CursorPos X="14" Y="430"/>
+        <UsageCount Value="10"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\..\aswinlanczos.pas"/>
+        <UnitName Value="ASWinLanczos"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="55"/>
+        <CursorPos X="15" Y="61"/>
+        <UsageCount Value="45"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\..\aswintukey.pas"/>
+        <UnitName Value="ASWinTukey"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="51"/>
+        <CursorPos X="14" Y="57"/>
+        <UsageCount Value="44"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\..\..\..\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="298"/>
+        <CursorPos X="10" Y="500"/>
+        <UsageCount Value="10"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\..\..\..\components\tachart\taseries.pas"/>
+        <UnitName Value="TASeries"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="51" Y="24"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\..\aswinhanning.pas"/>
+        <UnitName Value="ASWinHanning"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="58"/>
+        <CursorPos X="14" Y="59"/>
+        <UsageCount Value="30"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\..\ASWinKaiser.pas"/>
+        <UnitName Value="ASWinKaiser"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="64"/>
+        <CursorPos X="14" Y="69"/>
+        <UsageCount Value="28"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\..\..\components\tachart\tachartaxis.pas"/>
+        <UnitName Value="TAChartAxis"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="198"/>
+        <CursorPos X="15" Y="216"/>
+        <UsageCount Value="10"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\..\aswinblackmanharris.pas"/>
+        <UnitName Value="ASWinBlackmanHarris"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="79"/>
+        <CursorPos X="14" Y="81"/>
+        <UsageCount Value="23"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\..\aswinflattop.pas"/>
+        <UnitName Value="ASWinFlatTop"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="70"/>
+        <CursorPos X="14" Y="85"/>
+        <UsageCount Value="21"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\..\..\FreqAnalisys\wavelet.pas"/>
+        <UnitName Value="Wavelet"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="139"/>
+        <CursorPos X="49" Y="163"/>
+        <UsageCount Value="10"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\..\aswinbohman.pas"/>
+        <UnitName Value="ASWinBohman"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="51"/>
+        <CursorPos X="14" Y="54"/>
+        <UsageCount Value="22"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\..\ASWinNuttall.pas"/>
+        <UnitName Value="ASWinNuttall"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="3" Y="21"/>
+        <UsageCount Value="16"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\..\aswinblackmannuttall.pas"/>
+        <UnitName Value="ASWinBlackmanNuttall"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="75"/>
+        <CursorPos X="14" Y="77"/>
+        <UsageCount Value="16"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="..\..\aswinparzen.pas"/>
+        <UnitName Value="ASWinParzen"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="37"/>
+        <CursorPos X="14" Y="57"/>
+        <UsageCount Value="15"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\..\aswinprueba.pas"/>
+        <UnitName Value="ASWinPrueba"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="178"/>
+        <CursorPos X="63" Y="185"/>
+        <UsageCount Value="16"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\..\..\LazFiltersIIR\Component\Filter.pas"/>
+        <UnitName Value="Filter"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="253"/>
+        <CursorPos X="29" Y="281"/>
+        <UsageCount Value="10"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\..\..\LazFiltersFIR\filterfir.pas"/>
+        <UnitName Value="FilterFIR"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="58"/>
+        <CursorPos X="12" Y="9"/>
+        <UsageCount Value="12"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\..\..\LazFiltersIIR\Component\filteriir.pas"/>
+        <UnitName Value="FilterIIR"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="32"/>
+        <CursorPos X="29" Y="48"/>
+        <UsageCount Value="11"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="..\..\..\LazFiltersFIR\filter.pas"/>
+        <UnitName Value="Filter"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="11"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="..\..\..\LazFiltersFIR\FilterFirWin.pas"/>
+        <UnitName Value="FilterFIRWin"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="48"/>
+        <CursorPos X="11" Y="13"/>
+        <UsageCount Value="11"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="..\..\..\..\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="..\..\..\FreqAnalisys\cepstrum.pas"/>
+        <UnitName Value="Cepstrum"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="26"/>
+        <CursorPos X="11" Y="38"/>
+        <UsageCount Value="10"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="..\..\..\LazFiltersIIR\Component\filteriirlpbutterworth.pas"/>
+        <UnitName Value="FilterIIRLPButterworth"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="58"/>
+        <CursorPos X="9" Y="132"/>
+        <UsageCount Value="10"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="..\..\..\FreqAnalisys\Face.pas"/>
+        <UnitName Value="Face"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="23"/>
+        <CursorPos X="17" Y="59"/>
+        <UsageCount Value="10"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="..\..\..\FreqAnalisys\Msg.pas"/>
+        <UnitName Value="Msg"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="17"/>
+        <CursorPos X="9" Y="31"/>
+        <UsageCount Value="10"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="..\..\..\FreqAnalisys\UTBaseFreqAnalisys.pas"/>
+        <UnitName Value="UTBaseFreqAnalisys"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="120"/>
+        <CursorPos X="1" Y="124"/>
+        <UsageCount Value="10"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="..\..\..\FreqAnalisys\Vertices.pas"/>
+        <UnitName Value="Vertices"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="25"/>
+        <CursorPos X="40" Y="39"/>
+        <UsageCount Value="10"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="..\..\..\LazFiltersFIR\filterfirlpwin.pas"/>
+        <UnitName Value="FilterFirLPWin"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="43"/>
+        <CursorPos X="12" Y="13"/>
+        <UsageCount Value="11"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="..\..\..\LazFiltersFIR\filterfirhpwin.pas"/>
+        <UnitName Value="FilterFirHPWin"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="49"/>
+        <CursorPos X="1" Y="184"/>
+        <UsageCount Value="10"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="..\..\..\LazFiltersFIR\filterfirbpwin.pas"/>
+        <UnitName Value="FilterFirBPWin"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="40"/>
+        <CursorPos X="10" Y="60"/>
+        <UsageCount Value="10"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="..\..\..\LazFiltersFIR\filterfirbswin.pas"/>
+        <UnitName Value="FilterFirBSWin"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="76"/>
+        <CursorPos X="52" Y="89"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="..\..\..\..\components\tachart\tatypes.pas"/>
+        <UnitName Value="TATypes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="319"/>
+        <CursorPos X="31" Y="335"/>
+        <UsageCount Value="10"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="..\..\..\..\components\tachart\tadrawutils.pas"/>
+        <UnitName Value="TADrawUtils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="60"/>
+        <CursorPos X="3" Y="70"/>
+        <UsageCount Value="10"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="..\..\..\..\components\tachart\tachartutils.pas"/>
+        <UnitName Value="TAChartUtils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="23"/>
+        <UsageCount Value="10"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="..\..\..\..\components\tachart\talegend.pas"/>
+        <UnitName Value="TALegend"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="236"/>
+        <CursorPos X="20" Y="249"/>
+        <UsageCount Value="10"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="..\..\..\..\components\tachart\tachartaxisutils.pas"/>
+        <UnitName Value="TAChartAxisUtils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="334"/>
+        <CursorPos X="17" Y="353"/>
+        <UsageCount Value="10"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="..\..\..\..\components\tachart\tachartimagelist.pas"/>
+        <UnitName Value="TAChartImageList"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="140"/>
+        <CursorPos X="10" Y="158"/>
+        <UsageCount Value="10"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="..\..\..\..\components\tachart\tachartlistbox.pas"/>
+        <UnitName Value="TAChartListbox"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="321"/>
+        <CursorPos X="87" Y="327"/>
+        <UsageCount Value="10"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="..\..\..\..\components\tachart\tadrawerwmf.pas"/>
+        <UnitName Value="TADrawerWMF"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="27"/>
+        <CursorPos X="15" Y="46"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="..\..\..\..\components\tachart\tafuncseries.pas"/>
+        <UnitName Value="TAFuncSeries"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="847"/>
+        <CursorPos X="26" Y="866"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit79>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="19" HistoryIndex="18">
+      <Position1>
+        <Filename Value="..\..\..\..\components\tachart\tacustomseries.pas"/>
+        <Caret Line="2" Column="40" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\components\tachart\tadrawerwmf.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\..\..\components\tachart\tafuncseries.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\components\tachart\tafuncseries.pas"/>
+        <Caret Line="85" Column="15" TopLine="67"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\..\components\tachart\tafuncseries.pas"/>
+        <Caret Line="123" Column="15" TopLine="104"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="1483" Column="58" TopLine="1475"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="694" Column="22" TopLine="670"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="700" Column="15" TopLine="670"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="716" Column="14" TopLine="698"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="759" Column="12" TopLine="753"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="760" Column="11" TopLine="753"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="771" Column="14" TopLine="753"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="776" Column="14" TopLine="753"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="824" Column="12" TopLine="805"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\..\components\tachart\tagraph.pas"/>
+        <Caret Line="1133" Column="5" TopLine="1114"/>
+      </Position15>
+      <Position16>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="101" Column="32" TopLine="69"/>
+      </Position16>
+      <Position17>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="127" Column="20" TopLine="97"/>
+      </Position17>
+      <Position18>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="94" Column="3" TopLine="100"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\ASWinBase.pas"/>
+        <Caret Line="47" Column="14" TopLine="29"/>
+      </Position19>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="7">
+      <Item1>
+        <Expression Value="aWin[i]"/>
+      </Item1>
+      <Item2>
+        <Expression Value="aOrden-i"/>
+      </Item2>
+      <Item3>
+        <Expression Value="i"/>
+      </Item3>
+      <Item4>
+        <Expression Value="aWin[aOrden-i]"/>
+      </Item4>
+      <Item5>
+        <Expression Value="y"/>
+      </Item5>
+      <Item6>
+        <Expression Value="ripple"/>
+      </Item6>
+      <Item7>
+        <Expression Value="N"/>
+      </Item7>
+    </Watches>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

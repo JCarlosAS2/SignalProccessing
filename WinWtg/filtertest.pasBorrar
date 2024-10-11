@@ -1,0 +1,70 @@
+unit FilterTest;
+
+{$ifdef FPC}
+ {$MODE delphi}{$H+}
+{$endif}
+
+interface
+
+uses
+  Classes, SysUtils,
+  {$ifdef FPC}
+   LResources,
+  {$endif}
+  Forms, Controls, Graphics, Dialogs,
+  ASWinBase;
+
+type
+
+  { TFilterTest }
+
+  TFilterTest = class(TComponent)
+  private
+    { Private declarations }
+    FOrder : integer;
+    FWindowsType: TWinBase;
+    procedure SetOrder(AValue: integer);
+    procedure SetWindowsType(AValue: TWinBase);
+  protected
+    { Protected declarations }
+  public
+    { Public declarations }
+  published
+    { Published declarations }
+     property WindowsType: TWinBase  read FWindowsType write SetWindowsType default nil;
+     property Order: integer  read FOrder write SetOrder default 0;
+
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('LazSignal',[TFilterTest]);
+end;
+
+{ TFilterTest }
+
+procedure TFilterTest.SetWindowsType(AValue: TWinBase);
+var
+  i:integer;
+begin
+  if FWindowsType=AValue then Exit;
+  FWindowsType:=AValue;
+  i:=Order;
+  avalue.Order:=i ;
+  //avalue.CalcCoheff();
+
+end;
+
+procedure TFilterTest.SetOrder(AValue: integer);
+begin
+  if FOrder=AValue then Exit;
+  FOrder:=AValue;
+  if Assigned(WindowsType) then WindowsType.Order:=Order;
+end;
+
+
+end.

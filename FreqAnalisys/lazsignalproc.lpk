@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="lazsignalproc"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="D:\Games\NUEVA TESIS\Componentes\sharedfiles\"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Version Minor="1"/>
+    <Files Count="15">
+      <Item1>
+        <Filename Value="cepstrum.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Cepstrum"/>
+      </Item1>
+      <Item2>
+        <Filename Value="face.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="Face"/>
+      </Item2>
+      <Item3>
+        <Filename Value="fourier.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Fourier"/>
+      </Item3>
+      <Item4>
+        <Filename Value="Fourier.lrs"/>
+        <Type Value="LRS"/>
+      </Item4>
+      <Item5>
+        <Filename Value="msg.pas"/>
+        <UnitName Value="Msg"/>
+      </Item5>
+      <Item6>
+        <Filename Value="TCepstrum.lrs"/>
+        <Type Value="LRS"/>
+      </Item6>
+      <Item7>
+        <Filename Value="utbasefreqanalisys.pas"/>
+        <UnitName Value="UTBaseFreqAnalisys"/>
+      </Item7>
+      <Item8>
+        <Filename Value="vertices.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="Vertices"/>
+      </Item8>
+      <Item9>
+        <Filename Value="wavelet.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="Wavelet"/>
+      </Item9>
+      <Item10>
+        <Filename Value="udct.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="udct"/>
+      </Item10>
+      <Item11>
+        <Filename Value="UDCTF.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="UDCTF"/>
+      </Item11>
+      <Item12>
+        <Filename Value="udct_1.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="UDCT_1"/>
+      </Item12>
+      <Item13>
+        <Filename Value="udct_2.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="UDCT_2"/>
+      </Item13>
+      <Item14>
+        <Filename Value="udct_3.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="UDCT_3"/>
+      </Item14>
+      <Item15>
+        <Filename Value="udct_4.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="UDCT_4"/>
+      </Item15>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="LazWinWtg"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="IDEIntf"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)\"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

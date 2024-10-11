@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/05/08 12:32:25.000.033,=C:\Users\jc\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/05/08 12:41:08.000.501,C:\Users\jc\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Proyectos\AS\FreqAnalisys\Examples\FFTAnalisys Example Delphi\UMain.pas</Transaction>
+    <Transaction>2024/05/08 12:41:08.000.501,C:\Users\jc\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Proyectos\AS\FreqAnalisys\Examples\FFTAnalisys Example Delphi\UMain.fmx</Transaction>
+    <Transaction>2024/05/08 12:41:36.000.409,C:\Users\jc\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Proyectos\AS\FreqAnalisys\Examples\FFTAnalisys Example Delphi\FFTAnalisysD.dproj</Transaction>
+    <Transaction>2024/05/08 12:47:33.000.856,=D:\Proyectos\AS\FreqAnalisys\UTBaseFreqAnalisys.pas</Transaction>
+    <Transaction>2024/05/08 12:48:40.000.772,=D:\Proyectos\AS\FreqAnalisys\Msg.pas</Transaction>
+    <Transaction>2024/05/08 12:48:40.000.745,=D:\Proyectos\AS\FreqAnalisys\fourier.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.906,=D:\Proyectos\AS\WinWtg\ASWinprueba.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.494,=D:\Proyectos\AS\WinWtg\ASWinBohman.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.353,=D:\Proyectos\AS\WinWtg\ASWinBase.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.714,=D:\Proyectos\AS\WinWtg\ASWinLanczos.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.699,=D:\Proyectos\AS\WinWtg\ASWinKaiser.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.935,=D:\Proyectos\AS\WinWtg\ASWinRectangular.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.589,=D:\Proyectos\AS\WinWtg\ASWinGauss.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.808,=D:\Proyectos\AS\WinWtg\ASWinParzen.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.652,=D:\Proyectos\AS\WinWtg\ASWinHanning.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.620,=D:\Proyectos\AS\WinWtg\ASWinHamming.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.431,=D:\Proyectos\AS\WinWtg\ASWinBlackmanHarris.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.449,=D:\Proyectos\AS\WinWtg\ASWinBlackmanNuttall.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.557,=D:\Proyectos\AS\WinWtg\ASWinFlattop.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.999,=D:\Proyectos\AS\WinWtg\ASWinTriangle.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.793,=D:\Proyectos\AS\WinWtg\ASWinNuttall.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.526,=D:\Proyectos\AS\WinWtg\ASWinCos2.pas</Transaction>
+    <Transaction>2024/05/08 12:50:25.000.384,=D:\Proyectos\AS\WinWtg\ASWinBlackman.pas</Transaction>
+    <Transaction>2024/05/08 12:50:26.000.033,=D:\Proyectos\AS\WinWtg\ASWinTukey.pas</Transaction>
+    <Transaction>2024/05/08 12:50:26.000.062,=D:\Proyectos\AS\WinWtg\lazWinWtg.pas</Transaction>
+    <Transaction>2024/05/08 14:00:37.000.384,D:\Proyectos\AS\WinWtg\lazWinWtg.pas=</Transaction>
+    <Transaction>2024/05/08 14:03:51.000.341,D:\Proyectos\AS\WinWtg\ASWinprueba.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

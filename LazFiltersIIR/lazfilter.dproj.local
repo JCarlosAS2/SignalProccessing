@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/04/23 18:39:43.000.733,=rtl.dcp</Transaction>
+    <Transaction>2024/04/23 18:44:35.000.592,=rtl.dcp</Transaction>
+    <Transaction>2024/05/08 09:48:08.000.809,=rtl.dcp</Transaction>
+    <Transaction>2024/05/08 10:00:52.000.314,=rtl.dcp</Transaction>
+    <Transaction>2024/05/08 10:05:35.000.012,=rtl.dcp</Transaction>
+    <Transaction>2024/05/08 10:06:06.000.175,=rtl.dcp</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.698,=D:\Proyectos\AS\LazFiltersIIR\FilterIIRBS.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.824,=D:\Proyectos\AS\LazFiltersIIR\filteriirhpbessel.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.604,=D:\Proyectos\AS\LazFiltersIIR\filteriirbp.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.667,=D:\Proyectos\AS\LazFiltersIIR\filteriirbpbutterworth.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.588,=D:\Proyectos\AS\LazFiltersIIR\filteriir.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.573,=D:\Proyectos\AS\LazFiltersIIR\Filter.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.745,=D:\Proyectos\AS\LazFiltersIIR\filteriirbsbutterworth.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.635,=D:\Proyectos\AS\LazFiltersIIR\filteriirbpbessel.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.730,=D:\Proyectos\AS\LazFiltersIIR\filteriirbsbessel.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.871,=D:\Proyectos\AS\LazFiltersIIR\filteriirhpchebyshev.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.981,=D:\Proyectos\AS\LazFiltersIIR\filteriirlpchebyshev.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.934,=D:\Proyectos\AS\LazFiltersIIR\filteriirlpbutterworth.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.683,=D:\Proyectos\AS\LazFiltersIIR\filteriirbpchebyshev.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.808,=D:\Proyectos\AS\LazFiltersIIR\FilterIIRHP.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.887,=D:\Proyectos\AS\LazFiltersIIR\filteriirlp.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.845,=D:\Proyectos\AS\LazFiltersIIR\filteriirhpbutterworth.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.761,=D:\Proyectos\AS\LazFiltersIIR\filteriirbschebyshev.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.997,=D:\Proyectos\AS\LazFiltersIIR\lazfilterspkg.pas</Transaction>
+    <Transaction>2024/05/08 10:09:38.000.918,=D:\Proyectos\AS\LazFiltersIIR\filteriirlpbessel.pas</Transaction>
+    <Transaction>2024/05/08 10:09:39.000.045,=D:\Proyectos\AS\LazFiltersIIR\UOperator.pas</Transaction>
+    <Transaction>2024/05/08 10:09:39.000.060,=D:\Proyectos\AS\LazFiltersIIR\UType.pas</Transaction>
+    <Transaction>2024/05/08 10:09:39.000.013,=D:\Proyectos\AS\LazFiltersIIR\UConst.pas</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.229,=D:\Proyectos\AS\LazFiltersIIR\FilterIIRSetupAuxPasaBajo.inc</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.244,=D:\Proyectos\AS\LazFiltersIIR\FilterIIRSetupAuxPasaBanda.inc</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.291,=D:\Proyectos\AS\LazFiltersIIR\FilterIRRAuxSetup1.inc</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.197,=D:\Proyectos\AS\LazFiltersIIR\FilterIIRSetupAuxPasaAlto.inc</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.087,=D:\Proyectos\AS\LazFiltersIIR\FilterIIRAuxSetupButterworth.inc</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.071,=D:\Proyectos\AS\LazFiltersIIR\FilterIIRAuxSetupBessel.inc</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.025,=D:\Proyectos\AS\LazFiltersIIR\defines.inc</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.323,=D:\Proyectos\AS\LazFiltersIIR\FilterIRRAuxSetupBandStop.inc</Transaction>
+    <Transaction>2024/05/08 10:11:10.000.134,=D:\Proyectos\AS\LazFiltersIIR\FilterIIRAuxSetupChebyshev.inc</Transaction>
+    <Transaction>2024/05/08 10:12:39.000.674,C:\Users\jc\Documents\Embarcadero\Studio\Projects\Package1.dproj=D:\Proyectos\AS\LazFiltersIIR\lazfilter.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

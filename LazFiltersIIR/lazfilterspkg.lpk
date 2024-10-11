@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="LazFiltersPkg"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <UseAnsiStrings Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="0"/>
+        </Optimizations>
+      </CodeGeneration>
+    </CompilerOptions>
+    <Version Minor="1" Build="1"/>
+    <Files Count="40">
+      <Item1>
+        <Filename Value="Filter.pas"/>
+        <UnitName Value="Filter"/>
+      </Item1>
+      <Item2>
+        <Filename Value="filteriir.pas"/>
+        <UnitName Value="FilterIIR"/>
+      </Item2>
+      <Item3>
+        <Filename Value="FilterIIRHP.pas"/>
+        <UnitName Value="FilterIIRHP"/>
+      </Item3>
+      <Item4>
+        <Filename Value="filteriirlp.pas"/>
+        <UnitName Value="FilterIIRLP"/>
+      </Item4>
+      <Item5>
+        <Filename Value="filteriirbp.pas"/>
+        <UnitName Value="FilterIIRBP"/>
+      </Item5>
+      <Item6>
+        <Filename Value="FilterIIRBS.pas"/>
+        <UnitName Value="FilterIIRBS"/>
+      </Item6>
+      <Item7>
+        <Filename Value="filteriirlpbutterworth.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRLPButterworth"/>
+      </Item7>
+      <Item8>
+        <Filename Value="UType.pas"/>
+        <UnitName Value="UType"/>
+      </Item8>
+      <Item9>
+        <Filename Value="UOperator.pas"/>
+        <UnitName Value="UOperator"/>
+      </Item9>
+      <Item10>
+        <Filename Value="uasconst.pas"/>
+        <UnitName Value="uasconst"/>
+      </Item10>
+      <Item11>
+        <Filename Value="filteriirlpchebyshev.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRLPChebyshev"/>
+      </Item11>
+      <Item12>
+        <Filename Value="filteriirlpbessel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRLPBessel"/>
+      </Item12>
+      <Item13>
+        <Filename Value="filteriirhpbutterworth.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRHPButterworth"/>
+      </Item13>
+      <Item14>
+        <Filename Value="filteriirhpchebyshev.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRHPChebyshev"/>
+      </Item14>
+      <Item15>
+        <Filename Value="filteriirhpbessel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRHPBessel"/>
+      </Item15>
+      <Item16>
+        <Filename Value="filteriirbpbutterworth.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRBPButterworth"/>
+      </Item16>
+      <Item17>
+        <Filename Value="filteriirbpchebyshev.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRBPChebyshev"/>
+      </Item17>
+      <Item18>
+        <Filename Value="filteriirbpbessel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRBPBessel"/>
+      </Item18>
+      <Item19>
+        <Filename Value="filteriirbsbutterworth.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRBSButterworth"/>
+      </Item19>
+      <Item20>
+        <Filename Value="filteriirbschebyshev.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRBSChebyshev"/>
+      </Item20>
+      <Item21>
+        <Filename Value="filteriirbsbessel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="FilterIIRBSBessel"/>
+      </Item21>
+      <Item22>
+        <Filename Value="BSChebyshev.lrs"/>
+        <Type Value="LRS"/>
+      </Item22>
+      <Item23>
+        <Filename Value="HPBessel.lrs"/>
+        <Type Value="LRS"/>
+      </Item23>
+      <Item24>
+        <Filename Value="HPButterworth.lrs"/>
+        <Type Value="LRS"/>
+      </Item24>
+      <Item25>
+        <Filename Value="HPChebyshev.lrs"/>
+        <Type Value="LRS"/>
+      </Item25>
+      <Item26>
+        <Filename Value="BPBessel.lrs"/>
+        <Type Value="LRS"/>
+      </Item26>
+      <Item27>
+        <Filename Value="BPButterworth.lrs"/>
+        <Type Value="LRS"/>
+      </Item27>
+      <Item28>
+        <Filename Value="BPChebyshev.lrs"/>
+        <Type Value="LRS"/>
+      </Item28>
+      <Item29>
+        <Filename Value="LPBessel.lrs"/>
+        <Type Value="LRS"/>
+      </Item29>
+      <Item30>
+        <Filename Value="LPButterworth.lrs"/>
+        <Type Value="LRS"/>
+      </Item30>
+      <Item31>
+        <Filename Value="LPChebyshev.lrs"/>
+        <Type Value="LRS"/>
+      </Item31>
+      <Item32>
+        <Filename Value="BSBessel.lrs"/>
+        <Type Value="LRS"/>
+      </Item32>
+      <Item33>
+        <Filename Value="BSButterworth.lrs"/>
+        <Type Value="LRS"/>
+      </Item33>
+      <Item34>
+        <Filename Value="FilterIRRAuxSetupBandStop.inc"/>
+        <Type Value="Include"/>
+      </Item34>
+      <Item35>
+        <Filename Value="FilterIIRAuxSetupBessel.inc"/>
+        <Type Value="Include"/>
+      </Item35>
+      <Item36>
+        <Filename Value="FilterIIRAuxSetupButterworth.inc"/>
+        <Type Value="Include"/>
+      </Item36>
+      <Item37>
+        <Filename Value="FilterIIRSetupAuxPasaAlto.inc"/>
+        <Type Value="Include"/>
+      </Item37>
+      <Item38>
+        <Filename Value="FilterIIRSetupAuxPasaBajo.inc"/>
+        <Type Value="Include"/>
+      </Item38>
+      <Item39>
+        <Filename Value="FilterIIRSetupAuxPasaBanda.inc"/>
+        <Type Value="Include"/>
+      </Item39>
+      <Item40>
+        <Filename Value="FilterIRRAuxSetup1.inc"/>
+        <Type Value="Include"/>
+      </Item40>
+    </Files>
+    <CompatibilityMode Value="True"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

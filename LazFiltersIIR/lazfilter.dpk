@@ -1,0 +1,57 @@
+package lazfilter;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl;
+
+contains
+  Filter in 'Filter.pas',
+  filteriir in 'filteriir.pas',
+  filteriirbp in 'filteriirbp.pas',
+  filteriirbpbessel in 'filteriirbpbessel.pas',
+  filteriirbpbutterworth in 'filteriirbpbutterworth.pas',
+  filteriirbpchebyshev in 'filteriirbpchebyshev.pas',
+  FilterIIRBS in 'FilterIIRBS.pas',
+  filteriirbsbessel in 'filteriirbsbessel.pas',
+  filteriirbsbutterworth in 'filteriirbsbutterworth.pas',
+  filteriirbschebyshev in 'filteriirbschebyshev.pas',
+  FilterIIRHP in 'FilterIIRHP.pas',
+  filteriirhpbessel in 'filteriirhpbessel.pas',
+  filteriirhpbutterworth in 'filteriirhpbutterworth.pas',
+  filteriirhpchebyshev in 'filteriirhpchebyshev.pas',
+  filteriirlp in 'filteriirlp.pas',
+  filteriirlpbessel in 'filteriirlpbessel.pas',
+  filteriirlpbutterworth in 'filteriirlpbutterworth.pas',
+  filteriirlpchebyshev in 'filteriirlpchebyshev.pas',
+  lazfilterspkg in 'lazfilterspkg.pas',
+  UConst in 'UConst.pas',
+  UOperator in 'UOperator.pas',
+  UType in 'UType.pas';
+
+end.

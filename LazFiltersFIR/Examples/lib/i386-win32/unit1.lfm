@@ -1,0 +1,299 @@
+object Form1: TForm1
+  Left = 273
+  Height = 447
+  Top = 185
+  Width = 632
+  Caption = 'Form1'
+  ClientHeight = 447
+  ClientWidth = 632
+  OnCreate = FormCreate
+  LCLVersion = '1.1'
+  object GroupBox2: TGroupBox
+    Left = 0
+    Height = 208
+    Top = 8
+    Width = 424
+    Caption = 'Signal'
+    ClientHeight = 190
+    ClientWidth = 420
+    TabOrder = 0
+    object Chart1: TChart
+      Left = 0
+      Height = 190
+      Top = 0
+      Width = 420
+      AxisList = <      
+        item
+          Minors = <>
+          Title.LabelFont.Orientation = 900
+        end      
+        item
+          Alignment = calBottom
+          Minors = <>
+        end>
+      BackColor = clWhite
+      Foot.Brush.Color = clBtnFace
+      Foot.Font.Color = clBlue
+      Title.Brush.Color = clBtnFace
+      Title.Font.Color = clBlue
+      Title.Text.Strings = (
+        'TAChart'
+      )
+      Align = alClient
+      ParentColor = False
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 8
+    Height = 217
+    Top = 224
+    Width = 417
+    Caption = 'FFT'
+    ClientHeight = 199
+    ClientWidth = 413
+    TabOrder = 1
+    OnClick = GroupBox3Click
+    object Chart2: TChart
+      Left = -1
+      Height = 192
+      Top = 0
+      Width = 412
+      AxisList = <      
+        item
+          Minors = <>
+          Title.LabelFont.Orientation = 900
+        end      
+        item
+          Alignment = calBottom
+          Minors = <>
+        end>
+      BackColor = clWhite
+      Foot.Brush.Color = clBtnFace
+      Foot.Font.Color = clBlue
+      Title.Brush.Color = clBtnFace
+      Title.Font.Color = clBlue
+      Title.Text.Strings = (
+        'TAChart'
+      )
+      ParentColor = False
+    end
+  end
+  object BitBtn_Close: TButton
+    Left = 488
+    Height = 25
+    Top = 400
+    Width = 75
+    Caption = 'Close'
+    OnClick = BitBtn_CloseClick
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 494
+    Height = 25
+    Top = 304
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object CBoxWind: TComboBox
+    Left = 464
+    Height = 21
+    Top = 112
+    Width = 112
+    ItemHeight = 13
+    ItemIndex = 9
+    Items.Strings = (
+      'BlackMan'
+      'BlackManHarris'
+      'Cos^2'
+      'FlatTop'
+      'Gauss'
+      'Hamming'
+      'Hanning'
+      'Kaisser'
+      'Lanczos'
+      'Rectangular'
+      'Triangle'
+      'Turkey'
+    )
+    OnChange = CBoxWindChange
+    Style = csDropDownList
+    TabOrder = 4
+    Text = 'Rectangular'
+  end
+  object seorden: TSpinEdit
+    Left = 500
+    Height = 21
+    Top = 272
+    Width = 69
+    MaxValue = 10000
+    OnChange = seordenChange
+    OnKeyPress = seordenKeyPress
+    TabOrder = 5
+    Value = 30
+  end
+  object LBfc: TLabel
+    Left = 448
+    Height = 14
+    Top = 152
+    Width = 10
+    Caption = 'fc'
+    ParentColor = False
+  end
+  object LBfm: TLabel
+    Left = 448
+    Height = 14
+    Top = 216
+    Width = 13
+    Caption = 'fm'
+    ParentColor = False
+  end
+  object LBfc1: TLabel
+    Left = 445
+    Height = 14
+    Top = 184
+    Width = 16
+    Caption = 'fc2'
+    ParentColor = False
+  end
+  object fcsp1: TFloatSpinEdit
+    Left = 480
+    Height = 21
+    Top = 152
+    Width = 104
+    Increment = 1
+    MaxValue = 99999
+    MinValue = 0
+    OnChange = fcsp1Change
+    TabOrder = 6
+    Value = 0
+  end
+  object fcsp2: TFloatSpinEdit
+    Left = 480
+    Height = 21
+    Top = 184
+    Width = 106
+    Increment = 1
+    MaxValue = 99999
+    MinValue = 0
+    TabOrder = 7
+    Value = 0
+  end
+  object fmsp: TFloatSpinEdit
+    Left = 480
+    Height = 21
+    Top = 216
+    Width = 106
+    Increment = 1
+    MaxValue = 99999
+    MinValue = 0
+    OnChange = fmspChange
+    TabOrder = 8
+    Value = 0
+  end
+  object FFT1: TFFT
+    SpectrumSize = 512
+    WgtWin = WinBlackman1
+    size = 512
+    left = 207
+    top = 316
+  end
+  object WinPrueba1: TWinPrueba
+    Order = 0
+    Gain = 1
+    left = 384
+    top = 40
+  end
+  object WinGauss1: TWinGauss
+    GA1 = 3
+    Order = 0
+    Gain = 1
+    left = 144
+    top = 40
+  end
+  object WinRectangular1: TWinRectangular
+    RA1 = 1
+    Order = 0
+    Gain = 1
+    left = 92
+    top = 40
+  end
+  object WinTriangle1: TWinTriangle
+    Order = 0
+    Gain = 1
+    left = 40
+    top = 40
+  end
+  object WinBlackman1: TWinBlackman
+    A1 = 0.42659
+    A2 = 0.49656
+    A3 = 0.076848
+    Order = 512
+    Gain = 1
+    left = 40
+    top = 112
+  end
+  object WinHamming1: TWinHamming
+    A1 = 0.543478261
+    Order = 0
+    Gain = 1
+    left = 88
+    top = 112
+  end
+  object WinCos2_1: TWinCos2
+    Order = 0
+    Gain = 1
+    left = 144
+    top = 112
+  end
+  object WinHanning1: TWinHanning
+    A1 = 0.5
+    Order = 0
+    Gain = 1
+    left = 200
+    top = 40
+  end
+  object WinLanczos1: TWinLanczos
+    Order = 0
+    Gain = 1
+    left = 268
+    top = 112
+  end
+  object WinTukey1: TWinTukey
+    A1 = 0.5
+    Order = 0
+    Gain = 1
+    left = 256
+    top = 40
+  end
+  object WinKaiser1: TWinKaiser
+    Order = 0
+    Ripple = 0
+    TW = 0
+    Gain = 1
+    left = 208
+    top = 112
+  end
+  object WinBlackmanHarris1: TWinBlackmanHarris
+    A1 = 0.35875
+    A2 = 0.48829
+    A3 = 0.14128
+    A4 = 0.01168
+    Order = 512
+    Gain = 1
+    left = 320
+    top = 40
+  end
+  object WinFlatTop1: TWinFlatTop
+    A1 = 1
+    A2 = 1.93
+    A3 = 1.29
+    A4 = 0.388
+    A5 = 0.032
+    Order = 0
+    Gain = 1
+    left = 320
+    top = 112
+  end
+end

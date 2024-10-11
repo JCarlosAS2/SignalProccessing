@@ -1,0 +1,13 @@
+program DelphFilterWinBP;
+
+uses
+  Forms,
+  FilterFirHP in '..\Delphi Example 2 - LazFilterFIRWinHP\FilterFirHP.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

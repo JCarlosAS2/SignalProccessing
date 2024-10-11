@@ -1,0 +1,48 @@
+unit UMain;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Controls.Presentation, FMX.ListBox, UTBaseFreqAnalisys, Fourier,
+  ASWinBlackman, ASWinHamming, ASWinCos2, ASWinLanczos, ASWinKaiser,
+  ASWinFlatTop, ASWinBlackmanHarris, ASWinTukey, ASWinHanning, ASWinGauss,
+  ASWinRectangular, ASWinBase, ASWinTriangle;
+
+type
+  TForm1 = class(TForm)
+    GroupBox1: TGroupBox;
+    Label1: TLabel;
+    ScrollBar1: TScrollBar;
+    Label2: TLabel;
+    SBFreq1: TScrollBar;
+    GroupBox2: TGroupBox;
+    CBoxWind: TComboBox;
+    FFT1: TFFT;
+    WinTriangle1: TWinTriangle;
+    WinRectangular1: TWinRectangular;
+    WinGauss1: TWinGauss;
+    WinHanning1: TWinHanning;
+    WinTukey1: TWinTukey;
+    WinBlackmanHarris1: TWinBlackmanHarris;
+    WinFlatTop1: TWinFlatTop;
+    WinKaiser1: TWinKaiser;
+    WinLanczos1: TWinLanczos;
+    WinCos2_1: TWinCos2;
+    WinHamming1: TWinHamming;
+    WinBlackman1: TWinBlackman;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+end.

@@ -1,0 +1,66 @@
+package lazfilterspkg;
+
+{$R *.res}
+{$R 'filteriirbpbessel.dcr'}
+{$R 'filteriirbpbutterworth.dcr'}
+{$R 'filteriirbpchebyshev.dcr'}
+{$R 'filteriirbsbessel.dcr'}
+{$R 'filteriirbsbutterworth.dcr'}
+{$R 'filteriirbschebyshev.dcr'}
+{$R 'filteriirhpbessel.dcr'}
+{$R 'filteriirhpbutterworth.dcr'}
+{$R 'filteriirhpchebyshev.dcr'}
+{$R 'filteriirlpbessel.dcr'}
+{$R 'filteriirlpbutterworth.dcr'}
+{$R 'filteriirlpchebyshev.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  Filter in 'Filter.pas',
+  FilterIIR in 'filteriir.pas',
+  FilterIIRBP in 'filteriirbp.pas',
+  FilterIIRBPBessel in 'filteriirbpbessel.pas',
+  FilterIIRBPButterworth in 'filteriirbpbutterworth.pas',
+  FilterIIRBPChebyshev in 'filteriirbpchebyshev.pas',
+  FilterIIRBS in 'FilterIIRBS.pas',
+  FilterIIRBSBessel in 'filteriirbsbessel.pas',
+  FilterIIRBSButterworth in 'filteriirbsbutterworth.pas',
+  FilterIIRBSChebyshev in 'filteriirbschebyshev.pas',
+  FilterIIRHP in 'FilterIIRHP.pas',
+  FilterIIRHPBessel in 'filteriirhpbessel.pas',
+  FilterIIRHPButterworth in 'filteriirhpbutterworth.pas',
+  FilterIIRHPChebyshev in 'filteriirhpchebyshev.pas',
+  FilterIIRLP in 'filteriirlp.pas',
+  FilterIIRLPBessel in 'filteriirlpbessel.pas',
+  FilterIIRLPButterworth in 'filteriirlpbutterworth.pas',
+  FilterIIRLPChebyshev in 'filteriirlpchebyshev.pas',
+  UConst in 'UConst.pas',
+  UOperator in 'UOperator.pas',
+  UType in 'UType.pas';
+
+end.

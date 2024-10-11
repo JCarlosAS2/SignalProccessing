@@ -1,0 +1,303 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object GroupBox1: TGroupBox
+    StyledSettings = [Family, Size, FontColor, Other]
+    Position.X = 443.000000000000000000
+    Size.Width = 197.000000000000000000
+    Size.Height = 137.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Signal Properties'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 0
+    Left = 690
+    Top = 10
+    object Label1: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Noise'
+      Left = 18
+      Top = 10
+    end
+    object ScrollBar1: TScrollBar
+      SmallChange = 0.000000000000000000
+      Orientation = Horizontal
+      Position.X = 8.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 171.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnChange = ScrollBar1Change
+      Left = 18
+      Top = 40
+    end
+    object Label2: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 71.000000000000000000
+      Size.Width = 35.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Freq.'
+      Left = 18
+      Top = 90
+    end
+    object SBFreq1: TScrollBar
+      SmallChange = 0.000000000000000000
+      Orientation = Horizontal
+      Position.X = 8.000000000000000000
+      Position.Y = 99.000000000000000000
+      Size.Width = 170.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      OnChange = SBFreq1Change
+      Left = 18
+      Top = 120
+    end
+  end
+  object GroupBox2: TGroupBox
+    StyledSettings = [Family, Size, FontColor, Other]
+    Position.X = 443.000000000000000000
+    Position.Y = 145.000000000000000000
+    Size.Width = 197.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Windows Type'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 1
+    Left = 690
+    Top = 240
+    object CBoxWind: TComboBox
+      Items.Strings = (
+        'Rectangular'
+        'Triangle'
+        'Gauss'
+        'BlackMan'
+        'Cos^2'
+        'Hamming'
+        'Hanning'
+        'Kaisser'
+        'Lanczos'
+        'Turkey'
+        'BlackManHarris'
+        'FlatTop'
+        'WinParzen'
+        'WinNuttall'
+        'WinBohman'
+        'WinBlackmanNuttall')
+      ItemHeight = 20.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 170.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnChange = CBoxWindChange
+      Left = 18
+      Top = 10
+    end
+  end
+  object Chart1: TChart
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Foot.Font.StyleExt = {00040000000200000004000000}
+    Legend.Title.Font.StyleExt = {00070000000000000004000000}
+    SubFoot.Font.StyleExt = {00040000000200000004000000}
+    Title.Text.Strings = (
+      'TChart')
+    Zoom.Brush.Kind = None
+    Zoom.Pen.Fill.Color = claSilver
+    TabOrder = 15
+    Size.Width = 435.000000000000000000
+    Size.Height = 225.000000000000000000
+    Size.PlatformDefault = False
+    ColorPaletteIndex = 13
+  end
+  object Chart2: TChart
+    Position.X = 8.000000000000000000
+    Position.Y = 230.000000000000000000
+    Foot.Font.StyleExt = {00040000000200000004000000}
+    Legend.Title.Font.StyleExt = {00070000000000000004000000}
+    SubFoot.Font.StyleExt = {00040000000200000004000000}
+    Title.Text.Strings = (
+      'TChart')
+    Zoom.Brush.Kind = None
+    Zoom.Pen.Fill.Color = claSilver
+    TabOrder = 16
+    Size.Width = 435.000000000000000000
+    Size.Height = 250.000000000000000000
+    Size.PlatformDefault = False
+    ColorPaletteIndex = 13
+  end
+  object gbRGSpecType: TGroupBox
+    StyledSettings = [Family, Size, FontColor, Other]
+    Position.X = 443.000000000000000000
+    Position.Y = 209.000000000000000000
+    Size.Width = 197.000000000000000000
+    Size.Height = 80.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Spectrum Type'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 17
+    object RGSpecType: TComboBox
+      Items.Strings = (
+        'Magnitude'
+        'Power Spectrum'
+        'Phase Angle'
+        'Cosine Terms'
+        'Sine Terms'
+        'Real Spec'
+        'Imag Spec')
+      ItemHeight = 20.000000000000000000
+      Position.X = 8.000000000000000000
+      Position.Y = 21.000000000000000000
+      Size.Width = 170.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      OnChange = RGSpecTypeChange
+      Left = 18
+      Top = 10
+    end
+  end
+  object FFT1: TFFT
+    SpectrumSize = 1024
+    size = 1024
+    Left = 416
+    Top = 360
+  end
+  object WinTriangle1: TWinTriangle
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 16
+    Top = 20
+  end
+  object WinRectangular1: TWinRectangular
+    RA1 = 1.000000000000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 78
+    Top = 36
+  end
+  object WinGauss1: TWinGauss
+    GA1 = 3.000000000000000000
+    Order = 256
+    Gain = 1.000000000000000000
+    Left = 132
+    Top = 20
+  end
+  object WinHanning1: TWinHanning
+    A1 = 0.500000000000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 176
+    Top = 36
+  end
+  object WinTukey1: TWinTukey
+    A1 = 0.500000000000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 235
+    Top = 20
+  end
+  object WinBlackmanHarris1: TWinBlackmanHarris
+    A1 = 0.358750000000000000
+    A2 = 0.488290000000000000
+    A3 = 0.141280000000000000
+    A4 = 0.011680000000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 283
+    Top = 36
+  end
+  object WinFlatTop1: TWinFlatTop
+    A1 = 1.000000000000000000
+    A2 = 1.930000000000000000
+    A3 = 1.290000000000000000
+    A4 = 0.388000000000000000
+    A5 = 0.032000000000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 283
+    Top = 128
+  end
+  object WinKaiser1: TWinKaiser
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 235
+    Top = 104
+  end
+  object WinLanczos1: TWinLanczos
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 184
+    Top = 120
+  end
+  object WinCos2_1: TWinCos2
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 140
+    Top = 104
+  end
+  object WinHamming1: TWinHamming
+    A1 = 0.543478261000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 85
+    Top = 120
+  end
+  object WinBlackman1: TWinBlackman
+    A1 = 0.426590000000000000
+    A2 = 0.496560000000000000
+    A3 = 0.076848000000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 24
+    Top = 104
+  end
+  object WinParzen1: TWinParzen
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 344
+    Top = 16
+  end
+  object WinNuttall1: TWinNuttall
+    A0 = 0.355768000000000000
+    A1 = 0.487396000000000000
+    A2 = 0.144232000000000000
+    A3 = 0.012604000000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 344
+    Top = 104
+  end
+  object WinBohman1: TWinBohman
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 400
+    Top = 32
+  end
+  object WinBlackmanNuttall1: TWinBlackmanNuttall
+    BNA0 = 0.489177500000000000
+    BNA1 = 0.489177500000000000
+    BNA2 = 0.136599500000000000
+    BNA3 = 0.010641100000000000
+    Order = 0
+    Gain = 1.000000000000000000
+    Left = 392
+    Top = 128
+  end
+end

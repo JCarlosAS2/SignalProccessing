@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="LazWinWtg"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Version Minor="1"/>
+    <Files Count="33">
+      <Item1>
+        <Filename Value="ASWinBase.pas"/>
+        <UnitName Value="ASWinBase"/>
+      </Item1>
+      <Item2>
+        <Filename Value="ASWinRectangular.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinRectangular"/>
+      </Item2>
+      <Item3>
+        <Filename Value="ASWinTriangle.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinTriangle"/>
+      </Item3>
+      <Item4>
+        <Filename Value="ASWinBlackman.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinBlackman"/>
+      </Item4>
+      <Item5>
+        <Filename Value="ASWinHamming.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinHamming"/>
+      </Item5>
+      <Item6>
+        <Filename Value="ASWinCos2.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinCos2"/>
+      </Item6>
+      <Item7>
+        <Filename Value="ASWinHanning.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinHanning"/>
+      </Item7>
+      <Item8>
+        <Filename Value="ASWinLanczos.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinLanczos"/>
+      </Item8>
+      <Item9>
+        <Filename Value="ASWinTukey.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinTukey"/>
+      </Item9>
+      <Item10>
+        <Filename Value="ASWinKaiser.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinKaiser"/>
+      </Item10>
+      <Item11>
+        <Filename Value="ASWinBlackmanHarris.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinBlackmanHarris"/>
+      </Item11>
+      <Item12>
+        <Filename Value="ASWinBohman.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinBohman"/>
+      </Item12>
+      <Item13>
+        <Filename Value="ASWinNuttall.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinNuttall"/>
+      </Item13>
+      <Item14>
+        <Filename Value="ASWinGauss.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinGauss"/>
+      </Item14>
+      <Item15>
+        <Filename Value="ASWinBlackmanNuttall.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinBlackmanNuttall"/>
+      </Item15>
+      <Item16>
+        <Filename Value="ASWinFlattop.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinFlatTop"/>
+      </Item16>
+      <Item17>
+        <Filename Value="ASWinParzen.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ASWinParzen"/>
+      </Item17>
+      <Item18>
+        <Filename Value="ASWinTukey.lrs"/>
+        <Type Value="LRS"/>
+      </Item18>
+      <Item19>
+        <Filename Value="ASWinBlackman.lrs"/>
+        <Type Value="LRS"/>
+      </Item19>
+      <Item20>
+        <Filename Value="ASWinBlackmanHarris.lrs"/>
+        <Type Value="LRS"/>
+      </Item20>
+      <Item21>
+        <Filename Value="ASWinBlackmanNuttall.lrs"/>
+        <Type Value="LRS"/>
+      </Item21>
+      <Item22>
+        <Filename Value="ASWinBohman.lrs"/>
+        <Type Value="LRS"/>
+      </Item22>
+      <Item23>
+        <Filename Value="ASWinCos2.lrs"/>
+        <Type Value="LRS"/>
+      </Item23>
+      <Item24>
+        <Filename Value="ASWinFlatTop.lrs"/>
+        <Type Value="LRS"/>
+      </Item24>
+      <Item25>
+        <Filename Value="ASWinGauss.lrs"/>
+        <Type Value="LRS"/>
+      </Item25>
+      <Item26>
+        <Filename Value="ASWinHamming.lrs"/>
+        <Type Value="LRS"/>
+      </Item26>
+      <Item27>
+        <Filename Value="ASWinHanning.lrs"/>
+        <Type Value="LRS"/>
+      </Item27>
+      <Item28>
+        <Filename Value="ASWinKaiser.lrs"/>
+        <Type Value="LRS"/>
+      </Item28>
+      <Item29>
+        <Filename Value="ASWinLanczos.lrs"/>
+        <Type Value="LRS"/>
+      </Item29>
+      <Item30>
+        <Filename Value="ASWinNuttall.lrs"/>
+        <Type Value="LRS"/>
+      </Item30>
+      <Item31>
+        <Filename Value="ASWinParzen.lrs"/>
+        <Type Value="LRS"/>
+      </Item31>
+      <Item32>
+        <Filename Value="ASWinRectangular.lrs"/>
+        <Type Value="LRS"/>
+      </Item32>
+      <Item33>
+        <Filename Value="ASWinTriangle.lrs"/>
+        <Type Value="LRS"/>
+      </Item33>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

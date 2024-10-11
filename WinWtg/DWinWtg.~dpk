@@ -1,0 +1,51 @@
+package DWinWtg;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  ASWinKaiser in 'ASWinKaiser.pas',
+  ASWinBase in 'ASWinBase.pas',
+  ASWinBlackman in 'aswinblackman.pas',
+  ASWinBlackmanHarris in 'aswinblackmanharris.pas',
+  ASWinBlackmanNuttall in 'aswinblackmannuttall.pas',
+  ASWinBohman in 'aswinbohman.pas',
+  ASWinCos2 in 'ASWinCos2.pas',
+  ASWinFlatTop in 'aswinflattop.pas',
+  ASWinGauss in 'aswingauss.pas',
+  ASWinHamming in 'aswinhamming.pas',
+  ASWinHanning in 'aswinhanning.pas',
+  ASWinLanczos in 'aswinlanczos.pas',
+  ASWinNuttall in 'aswinnuttall.pas',
+  ASWinParzen in 'aswinparzen.pas',
+  ASWinRectangular in 'ASWinRectangular.pas',
+  ASWinTriangle in 'ASWinTriangle.pas',
+  ASWinTukey in 'aswintukey.pas',
+  UType in 'UType.pas';
+
+end.

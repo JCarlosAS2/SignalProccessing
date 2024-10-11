@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="LazWinWtg"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="lazsignalproc"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="TAChartLazarusPkg"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="FFT.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FFT"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="19"/>
+        <UsageCount Value="122"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit_Main"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="134"/>
+        <CursorPos X="1" Y="144"/>
+        <UsageCount Value="122"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\components\tachart\taseries.pas"/>
+        <UnitName Value="TASeries"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="344"/>
+        <CursorPos X="1" Y="363"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\components\tachart\tachartutils.pas"/>
+        <UnitName Value="TAChartUtils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="268"/>
+        <CursorPos X="1" Y="279"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="27"/>
+        <CursorPos X="1" Y="103"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\utbasefreqanalisys.pas"/>
+        <UnitName Value="UTBaseFreqAnalisys"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="333"/>
+        <CursorPos X="1" Y="395"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\WinWtg\filtertest.pas"/>
+        <UnitName Value="FilterTest"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="6" Y="28"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\WinWtg\ASWinBase.pas"/>
+        <UnitName Value="ASWinBase"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="35"/>
+        <CursorPos X="31" Y="54"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\msg.pas"/>
+        <UnitName Value="Msg"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="34" Y="28"/>
+        <UsageCount Value="6"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\WinWtg\aswingauss.pas"/>
+        <UnitName Value="ASWinGauss"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="85"/>
+        <CursorPos X="22" Y="108"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\fpc\2.6.1\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="84"/>
+        <CursorPos X="4" Y="104"/>
+        <UsageCount Value="5"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3502"/>
+        <CursorPos X="1" Y="3522"/>
+        <UsageCount Value="5"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\fpc\2.6.1\source\rtl\objpas\objpas.pp"/>
+        <UnitName Value="objpas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="53"/>
+        <CursorPos X="8" Y="28"/>
+        <UsageCount Value="5"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\SignalProc\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\lcl\include\customcombobox.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="174"/>
+        <CursorPos X="1" Y="193"/>
+        <UsageCount Value="5"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\lcl\include\wincontrol.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7198"/>
+        <CursorPos X="1" Y="7209"/>
+        <UsageCount Value="5"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\lcl\interfaces\win32\win32wsstdctrls.pp"/>
+        <UnitName Value="Win32WSStdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="923"/>
+        <CursorPos X="1" Y="933"/>
+        <UsageCount Value="5"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\..\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="130"/>
+        <CursorPos X="3" Y="122"/>
+        <UsageCount Value="5"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\ComponentesModifPorJC\FreqAnalisys\fourier.pas"/>
+        <UnitName Value="Fourier"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="175"/>
+        <CursorPos X="1" Y="195"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit18>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="180" Column="1" TopLine="163"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="182" Column="1" TopLine="163"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="183" Column="1" TopLine="163"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="187" Column="1" TopLine="163"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="182" Column="1" TopLine="163"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="183" Column="1" TopLine="163"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="185" Column="32" TopLine="163"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="180" Column="11" TopLine="163"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="183" Column="1" TopLine="163"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="184" Column="1" TopLine="163"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="185" Column="1" TopLine="163"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="174" Column="34" TopLine="163"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="178" Column="1" TopLine="163"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="180" Column="1" TopLine="163"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="182" Column="1" TopLine="163"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="183" Column="1" TopLine="163"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="184" Column="1" TopLine="163"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="188" Column="1" TopLine="163"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="189" Column="1" TopLine="163"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="180" Column="1" TopLine="163"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="182" Column="1" TopLine="163"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="183" Column="1" TopLine="163"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="184" Column="1" TopLine="163"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="188" Column="1" TopLine="163"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="189" Column="1" TopLine="163"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="180" Column="1" TopLine="163"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="184" Column="14" TopLine="163"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="180" Column="2" TopLine="163"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\..\fourier.pas"/>
+        <Caret Line="103" Column="1" TopLine="27"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\..\utbasefreqanalisys.pas"/>
+        <Caret Line="99" Column="21" TopLine="67"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="FFT"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

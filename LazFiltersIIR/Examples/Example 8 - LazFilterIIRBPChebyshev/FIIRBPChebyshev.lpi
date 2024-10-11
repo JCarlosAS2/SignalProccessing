@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="FIIRBPChebyshev"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="5">
+      <Item1>
+        <PackageName Value="LazFiltersPkg"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="MemDSLaz"/>
+        <MinVersion Major="1" Minor="2" Valid="True" Release="1"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="TAChartLazarusPkg"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
+    </RequiredPackages>
+    <Units Count="28">
+      <Unit0>
+        <Filename Value="FIIRBPChebyshev.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FIIRBPChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="13"/>
+        <UsageCount Value="47"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="67"/>
+        <CursorPos X="42" Y="75"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\Source\dspIIRFilters.pas"/>
+        <UnitName Value="dspIIRFilters"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="120"/>
+        <CursorPos X="6" Y="152"/>
+        <UsageCount Value="21"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Source\dspComplex.pas"/>
+        <UnitName Value="dspcomplex"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="160"/>
+        <CursorPos X="23" Y="154"/>
+        <UsageCount Value="21"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\Source\dspTypes.pas"/>
+        <UnitName Value="dspTypes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="18" Y="6"/>
+        <UsageCount Value="21"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3150"/>
+        <CursorPos X="1" Y="3167"/>
+        <UsageCount Value="17"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3055"/>
+        <CursorPos X="1" Y="3039"/>
+        <UsageCount Value="17"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\fpc\2.4.1\source\rtl\inc\mathh.inc"/>
+        <TopLine Value="4"/>
+        <CursorPos X="60" Y="90"/>
+        <UsageCount Value="12"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\fpc\2.4.1\source\rtl\objpas\math.pp"/>
+        <UnitName Value="math"/>
+        <TopLine Value="248"/>
+        <CursorPos X="13" Y="265"/>
+        <UsageCount Value="12"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\fpc\2.4.1\source\rtl\i386\mathu.inc"/>
+        <TopLine Value="10"/>
+        <CursorPos X="32" Y="23"/>
+        <UsageCount Value="12"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\filteriirpbchebyshev.pas"/>
+        <UnitName Value="FilterIIRPBChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="128"/>
+        <CursorPos X="46" Y="140"/>
+        <UsageCount Value="11"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\filteriirpb.pas"/>
+        <UnitName Value="FilterIIRPB"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="48"/>
+        <CursorPos X="1" Y="62"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\uoperator.pas"/>
+        <UnitName Value="UOperator"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="9"/>
+        <CursorPos X="13" Y="22"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\filteriir.pas"/>
+        <UnitName Value="FilterIIR"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="42" Y="22"/>
+        <UsageCount Value="11"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\Filter.pas"/>
+        <UnitName Value="Filter"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="29" Y="80"/>
+        <UsageCount Value="11"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\UConst.pas"/>
+        <UnitName Value="UConst"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="31" Y="8"/>
+        <UsageCount Value="11"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\filteriirpbandchebyshev.pas"/>
+        <UnitName Value="FilterIIRPBandChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="135"/>
+        <CursorPos X="25" Y="146"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\filteriirlpchebyshev.pas"/>
+        <UnitName Value="FilterIIRLPChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="120"/>
+        <CursorPos X="42" Y="122"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\filteriirhpchebyshev.pas"/>
+        <UnitName Value="FilterIIRHPChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="116"/>
+        <CursorPos X="42" Y="120"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\filteriirbpchebyshev.pas"/>
+        <UnitName Value="FilterIIRBPChebyshev"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="121"/>
+        <CursorPos X="33" Y="126"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\FilterIIRAuxSetupBessel.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\FilterIIRAuxSetupChebyshev.inc"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="44" Y="4"/>
+        <UsageCount Value="20"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\UType.pas"/>
+        <UnitName Value="UType"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="44" Y="24"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\FilterIIRHP.pas"/>
+        <UnitName Value="FilterIIRHP"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="57"/>
+        <CursorPos X="1" Y="42"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\filteriirlp.pas"/>
+        <UnitName Value="FilterIIRLP"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="67"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\filteriirbp.pas"/>
+        <UnitName Value="FilterIIRBP"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="103"/>
+        <CursorPos X="39" Y="7"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\FilterIIRBS.pas"/>
+        <UnitName Value="FilterIIRBS"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="109"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\filteriirlpbutterworth.pas"/>
+        <UnitName Value="FilterIIRLPButterworth"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="79"/>
+        <CursorPos X="31" Y="89"/>
+        <UsageCount Value="10"/>
+      </Unit27>
+    </Units>
+    <JumpHistory Count="25" HistoryIndex="24">
+      <Position1>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="229" Column="34" TopLine="220"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="228" Column="34" TopLine="219"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="227" Column="34" TopLine="218"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="226" Column="34" TopLine="217"/>
+      </Position4>
+      <Position5>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="225" Column="34" TopLine="216"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="224" Column="34" TopLine="215"/>
+      </Position6>
+      <Position7>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="223" Column="34" TopLine="214"/>
+      </Position7>
+      <Position8>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="222" Column="34" TopLine="213"/>
+      </Position8>
+      <Position9>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="221" Column="34" TopLine="212"/>
+      </Position9>
+      <Position10>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="220" Column="34" TopLine="211"/>
+      </Position10>
+      <Position11>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="219" Column="34" TopLine="210"/>
+      </Position11>
+      <Position12>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="218" Column="34" TopLine="209"/>
+      </Position12>
+      <Position13>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="217" Column="34" TopLine="208"/>
+      </Position13>
+      <Position14>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="216" Column="34" TopLine="207"/>
+      </Position14>
+      <Position15>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="215" Column="34" TopLine="206"/>
+      </Position15>
+      <Position16>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="214" Column="34" TopLine="205"/>
+      </Position16>
+      <Position17>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="213" Column="34" TopLine="204"/>
+      </Position17>
+      <Position18>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="212" Column="34" TopLine="203"/>
+      </Position18>
+      <Position19>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="211" Column="34" TopLine="202"/>
+      </Position19>
+      <Position20>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="210" Column="34" TopLine="201"/>
+      </Position20>
+      <Position21>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="209" Column="34" TopLine="200"/>
+      </Position21>
+      <Position22>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="208" Column="34" TopLine="199"/>
+      </Position22>
+      <Position23>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="207" Column="34" TopLine="198"/>
+      </Position23>
+      <Position24>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="206" Column="34" TopLine="197"/>
+      </Position24>
+      <Position25>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="223" Column="34" TopLine="214"/>
+      </Position25>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="FIIRBPChebyshev"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <Libraries Value="..\.."/>
+      <OtherUnitFiles Value="..\.."/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="True"/>
+        <DebugInfoType Value="dsAuto"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
